@@ -35,10 +35,14 @@ export const Route = createRootRoute({
       { title: "Green Energy Distributors Ltd | Solar, LED & Electrical Solutions Zambia" },
       { name: "description", content: "Full-service solar, LED lighting and electrical supply & installation across Zambia. Serving retailers, hotels, manufacturers, farmers and contractors." },
       { name: "author", content: "Green Energy Distributors Ltd" },
-      { property: "og:title", content: "Green Energy Distributors Ltd" },
-      { property: "og:description", content: "Powering Zambia's future with clean energy — solar, LED lighting and electrical solutions." },
+      { property: "og:title", content: "Green Energy Distributors Ltd | Solar, LED & Electrical Solutions Zambia" },
+      { property: "og:description", content: "Full-service solar, LED lighting and electrical supply & installation across Zambia. Serving retailers, hotels, manufacturers, farmers and contractors." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Green Energy Distributors Ltd | Solar, LED & Electrical Solutions Zambia" },
+      { name: "twitter:description", content: "Full-service solar, LED lighting and electrical supply & installation across Zambia. Serving retailers, hotels, manufacturers, farmers and contractors." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b73c85f-bc86-4368-9917-0d247f52e384/id-preview-7a27073a--2b0902c8-947d-49a9-a0d9-7034a772ae3a.lovable.app-1777558484125.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b73c85f-bc86-4368-9917-0d247f52e384/id-preview-7a27073a--2b0902c8-947d-49a9-a0d9-7034a772ae3a.lovable.app-1777558484125.png" },
     ],
     links: [
       {

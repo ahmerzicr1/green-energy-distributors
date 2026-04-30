@@ -1,0 +1,61 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { Button } from "@/components/ui/button";
+import { Sun, PencilRuler, Lightbulb, LampDesk, Zap, ShoppingBag, BookOpen, ArrowRight } from "lucide-react";
+
+export const Route = createFileRoute("/services")({
+  head: () => ({
+    meta: [
+      { title: "Services — Green Energy Distributors Ltd" },
+      { name: "description", content: "Solar installation, system design, LED flood and street lighting, electrical contracting, equipment sales and energy consultancy across Zambia." },
+      { property: "og:title", content: "Our Services — Green Energy Distributors Ltd" },
+      { property: "og:description", content: "Comprehensive solar, LED and electrical services for Zambian businesses." },
+    ],
+  }),
+  component: ServicesPage,
+});
+
+const services = [
+  { icon: Sun, title: "Solar Panel Installation", desc: "Professional installation of rooftop and ground-mount solar arrays for homes, businesses and farms — built to withstand Zambia's climate." },
+  { icon: PencilRuler, title: "Solar System Design", desc: "Custom system sizing, load analysis and engineering plans tailored to your usage patterns and budget." },
+  { icon: Lightbulb, title: "LED Flood Lighting", desc: "Heavy-duty IP66 flood lights for warehouses, sports grounds, security perimeters and industrial yards." },
+  { icon: LampDesk, title: "LED Street Lighting", desc: "Energy-efficient street and road lighting for estates, councils and private developments." },
+  { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects." },
+  { icon: ShoppingBag, title: "Solar Equipment Sales", desc: "Tier-1 panels, inverters, batteries, mounting kits and accessories sold at competitive trade pricing." },
+  { icon: BookOpen, title: "Energy Consultancy", desc: "Independent advice on energy audits, efficiency upgrades and ROI modelling for clean-energy investments." },
+];
+
+function ServicesPage() {
+  return (
+    <>
+      <section className="bg-accent text-accent-foreground">
+        <div className="container mx-auto px-4 md:px-6 py-20 md:py-28">
+          <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--primary-glow)" }}>Our Services</span>
+          <h1 className="mt-3 text-4xl md:text-5xl font-bold">Complete energy solutions, one trusted partner</h1>
+          <p className="mt-5 text-lg text-white/80 max-w-2xl">Design, supply, installation and aftercare — all delivered in-house by certified Zambian engineers.</p>
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4 md:px-6 py-20">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {services.map((s) => (
+            <article key={s.title} className="group rounded-xl border border-border bg-card p-7 transition-all hover:border-primary/40 hover:-translate-y-1" style={{ boxShadow: "var(--shadow-card)" }}>
+              <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                <s.icon className="h-6 w-6" />
+              </div>
+              <h2 className="mt-5 text-xl font-semibold text-foreground">{s.title}</h2>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-16 rounded-2xl p-10 md:p-14 text-white text-center" style={{ background: "var(--gradient-primary)" }}>
+          <h2 className="text-2xl md:text-3xl font-bold">Need a custom scope of work?</h2>
+          <p className="mt-3 text-white/90 max-w-xl mx-auto">Send us your site details and we'll prepare a quotation tailored to your project.</p>
+          <Button asChild variant="hero" size="lg" className="mt-6">
+            <Link to="/contact">Request a Quote <ArrowRight className="ml-1 h-4 w-4" /></Link>
+          </Button>
+        </div>
+      </section>
+    </>
+  );
+}

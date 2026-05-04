@@ -1,1 +1,2444 @@
-[{"code": "KB25_WE", "name": "13A 250V 2 GANG SWITCH SOCKET", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB15_15_WE", "name": "15A 250V 1 GANG SWITCH SKT WH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB15_WE", "name": "13A 250V 1 GANG SWITCH SOCKET", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB30_WE", "name": "1 GANG BLANK PLATE", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KBT30_WE", "name": "TWIN GANG BLANK PLATE", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31_WE", "name": "16AX 250V 1GANG 2 WAY SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31_1_WE", "name": "16AX 250V 1GANG 1WAY SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32_1_WE", "name": "16AX 250V 2GANG 1 WAY SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32_WE", "name": "16AX 250V 2GANG 2 WAY SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31TV WE", "name": "1 GANG TV CO-AXIAL OUTLET", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB413S", "name": "13A 250V 1 Gang 3 Pin Universal Socket", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32RJ6", "name": "2G CAT6 DATA OUTLET W/SHUTTER", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31RJ6_WE", "name": "1 GANG CAT 6 DATA OL W/O SHT", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32TV", "name": "2 GANG TV CO-AXIAL OUTLET", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31TS_WE", "name": "1 GANG TELEPHONE OUTLET SHUTT", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31RF250_WE", "name": "1 GANG 250VA FAN CONTROLLER", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31RD400_WE", "name": "1 GANG 400W LIGHT DIMMER", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31IA_WE", "name": "10AX 250V INTERMEDIATE SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KBT426_16S_WE", "name": "16A 250V TWN G SCHUKO SOCKT WS", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB33_1", "name": "16AX 250V 3GANG 1 WAY SWITCH", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31EKT_WE", "name": "HOTEL KEY CARD", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KBT15D45N_WE", "name": "45A 250V COOKER CONTROL UNIT", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB31USB_WE", "name": "1 x 2.1A USB Charger", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32USB WE", "name": "2 x 2.1A USB Charger", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "EZ9F53106", "name": "EZ9 MCB 1P 6A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53110", "name": "EZ9 MCB 1P 10A C 3kA 230V", "category": "EASY 9 MCB's - C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53116", "name": "EZ9 MCB 1P 16A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53120", "name": "EZ9 MCB 1P 20A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230y - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53132", "name": "EZ9 MCB 1P 32A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53140", "name": "EZ9 MCB 1P 40A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230y - 400y", "brand": "SCHNEIDER"}, {"code": "EZ9F53150", "name": "EZ9 MCB 1P 50A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53163", "name": "EZ9 MCB 1P 63A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53210", "name": "EZ9 MCB 2P 10A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53220", "name": "EZ9 MCB 2P 20A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230y - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53232", "name": "EZ9 MCB 2P 32A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53240", "name": "EZ9 MCB 2P 40A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53250", "name": "EZ9 MCB 2P 50A C 3KA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "KB31TV_WE", "name": "1 GANG TV CO-AXIAL OUTLET", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "KB32USB_WE", "name": "2 x 2.1A USB Charger", "category": "VIVACE", "brand": "SCHNEIDER"}, {"code": "EZ9F53263", "name": "EZ9 MCB 2P 63A C 3kA 230V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53316", "name": "EZ9 MCB 3P 16A C 3KA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53320", "name": "EZ9 MCB 3P 20A C 3KA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53332", "name": "EZ9 MCB 3P 32A C 3kA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53340", "name": "EZ9 MCB 3P 40A C 3kA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53350", "name": "EZ9 MCB 3P 50A C 3KA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9F53363", "name": "EZ9 MCB 3P 63A C 3kA 400V", "category": "EASY 9 MCB's -- C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9L33120", "name": "EASY9 SURGE T2 1P 20 KA 230V", "category": "EASY 9 MCB's - C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "EZ9L33720", "name": "EASY9 SURGE T2 3P-N 20kA 400V", "category": "EASY 9 MCB's - C curve 3Ka 230v - 400v", "brand": "SCHNEIDER"}, {"code": "A9F64106", "name": "IC60A 1P 6A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64110", "name": "IC60A 1P 10A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64116", "name": "IC60A 1P 16A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64120", "name": "IC60A 1P 20A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64125", "name": "IC60A 1P 25A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64132", "name": "IC60A 1P 32A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64140", "name": "IC60A 1P 40A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64150", "name": "IC60A 1P 50A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9F64163", "name": "IC60A 1P 63A C CURVE 6kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "E8431 2 SA", "name": "16AX 1GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431 1 SA", "name": "16AX 1 GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432_2_SA", "name": "16AX 2GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432_1_SA", "name": "16AX 2GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T25 SA", "name": "13A 2 GANG SWITCHED SOCKET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T15D45N_SA", "name": "45A D/POLE SWITCH+S/SOCKET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8415_SA", "name": "13A 1 GANG SWITCHED SOCKET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8433_2_SA", "name": "16AX 3GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8433_1_SA", "name": "16AX 3GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431RJS_6_SA", "name": "1 GANG CAT 6 DATA OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432RJS4 SA", "name": "2 GANG TELEPHONE OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431_I_SA", "name": "10AX INTERMEDIATE SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431RJS4_SA", "name": "1 GANG TELEPHONE OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T34_2 SA", "name": "16AX 4 GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432RJS_6_SA", "name": "2 GANG CAT 6 DATA OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431TVM_SA", "name": "1 GANG TV CO-AXIAL OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8434 1 SA", "name": "16AX 4 GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T727V_SA", "name": "UNIVERSAL SHAVER UNIT SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431D20_SA", "name": "20A 1G FLAT DP SWITCH NEON SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431USB_SA", "name": "1 x 2.1A USB Charger", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431_2_SA", "name": "16AX 1GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8431_1_SA", "name": "16AX 1 GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T25_SA", "name": "13A 2 GANG SWITCHED SOCKET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432RJS4_SA", "name": "2 GANG TELEPHONE OUTLET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84T34_2_SA", "name": "16AX 4 GANG 2 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8434_1_SA", "name": "16AX 4 GANG 1 WAY SWITCH SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8432USB_SA", "name": "2 x 2.1A USB Charger", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84426_16TS_SA", "name": "16A 1G INTERNATIONAL SOCKET SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E84426_15_SA", "name": "15A 1 GANG S/SOCKET ROUND SA", "category": "ZENCELO SA(silver)", "brand": "SCHNEIDER"}, {"code": "E8415_SZ", "name": "13A 1 GANG SWITCHED SOCKET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431_1_SZ", "name": "16AX 1 GANG 1 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431_2_SZ", "name": "16AX 1GANG 2 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431_I_SZ", "name": "10AX INTERMEDIATE SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431D20_SZ", "name": "20A 1G FLAT DP SWITCH NEON SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431RJS_6_SZ", "name": "1 GANG CAT 6 DATA OUTLET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431RJS4_SZ", "name": "1 GANG TELEPHONE OUTLET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431TVM_SZ", "name": "1 GANG TV CO-AXIAL OUTLET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8431USB_SZ", "name": "1 x 2.1A USB Charger", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8432_1_SZ", "name": "16AX 2GANG 1 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8432_2_SZ", "name": "16AX 2GANG 2 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8432RJS_6_SZ", "name": "2 GANG CAT 6 DATA OUTLET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8432RJS4_SZ", "name": "2 GANG TELEPHONE OUTLET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8432USB_SZ", "name": "2 x 2.1A USB Charger", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8433_1_SZ", "name": "16AX 3GANG 1 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8433_2_SZ", "name": "16AX 3GANG 2 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E8434_1_SZ", "name": "16AX 4 GANG 1 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84426_15_SZ", "name": "1 GANG 3 ROUND PIN SWITCH SOCKET WITH SHUTTER", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84426_16IS_SZ", "name": "16A 1G INTERNATIONAL SOCKET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84T15D45N_SZ", "name": "45A D/POLE SWITCH+S/SOCKET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84T25_SZ", "name": "13A 2 GANG SWITCHED SOCKET SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84T34_2_SZ", "name": "16AX 4 GANG 2 WAY SWITCH SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "E84T727V_SZ", "name": "UNIVERSAL SHAVER UNIT SZ", "category": "ZENCELO SZ(Brown)", "brand": "SCHNEIDER"}, {"code": "GV2ME05", "name": "MCB.THER/MAG 0.63-1.0A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME06", "name": "MCB.THER/MAG 1.0-1.6A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME08", "name": "MCB.THER/MAG 2.5-4.0A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME10", "name": "MCB.THER/MAG 4.0-6.3A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME14", "name": "MCB.THER/MAG 6-10A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME22", "name": "GV2ME MOTOR CB THERM/MAG 20-25 ROCKER", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GV2ME32", "name": "MCB.THER/MAG 24-32A", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GVAE11", "name": "AUX BLOCK GV2 FRONT 1NO + 1NC", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "GVAN11", "name": "AUX.BLOCK.SIDE.1NO+1NC", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LA9D09978", "name": "INTERLOCK FOR CONT 9-25", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LA9D50978", "name": "MECH ONLY INTERLOCK FOR D80/95 AC", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LA9D80978", "name": "MECH ONLY INTERLOCK FOR D80/95 DC", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LADN02", "name": "CONTACTS BLOCK", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LADN11", "name": "AUX CONT. 1N/O+1N/C", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LADN20", "name": "AUX CONT 2N/O", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "LADN22", "name": "AUX CONT 2N/O+2N/C", "category": "CONTACTORS & MOTOR BREAKERS", "brand": "SCHNEIDER"}, {"code": "EZC100H3060", "name": "MCCB 3P 60A 30kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "EZC100H3100", "name": "MCCB 3P 100A 30kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV429670", "name": "MCCB NSX100N 3P 100A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV430840", "name": "MCCB NSX16ON 3P 160A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV431812", "name": "MCCB NSX25ON 3P 250A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV432676", "name": "MCCB NSX400N 3P 400A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV432876", "name": "MCCB NSX63ON 3P 630A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "A9N18356", "name": "C12OH 3P 8OA C CURVE 15kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9N18357", "name": "C120H 3P 100A C CURVE 15kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9N18358", "name": "C12OH 3P 125A C CURVE 15kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "XB4BW33M5", "name": "ILLUMINATED PUSH BUTTON GREEN 220V", "category": "HARMONY XB4", "brand": "SCHNEIDER"}, {"code": "XB4BW34M5", "name": "ILLUMINATED PUSH BUTTON RED 220V", "category": "HARMONY XB4", "brand": "SCHNEIDER"}, {"code": "XB4BD21", "name": "SELECTOR SWITCH 2 POSITION", "category": "HARMONY XB4", "brand": "SCHNEIDER"}, {"code": "XB4BS8445", "name": "EMERGENCY STOP PUSH BUTTON 40MM", "category": "HARMONY XB4", "brand": "SCHNEIDER"}, {"code": "MK7", "name": "TENSIONING TOOL FOR CABLE TIES UP TO 4.8MM", "category": "CABLE TIE TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "MK9", "name": "TENSIONING TOOL FOR CABLE TIES UP TO 13.5MM", "category": "CABLE TIE TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "RO202", "name": "RITE-ON DISPENSER WITH MARKER AND LABEL ROLL", "category": "CABLE IDENTIFICATION", "brand": "HELLERMANN TYTON"}, {"code": "IT18R", "name": "IDENTIFICATION TIE 100 X 2.5MM NATURAL", "category": "CABLE IDENTIFICATION", "brand": "HELLERMANN TYTON"}, {"code": "B7012", "name": "BI-METAL LUG 70MM X 12MM", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "B9512", "name": "BI-METAL LUG 95MM X 12MM", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "TBM3030", "name": "DIGITAL CLAMP METER 600A AC/DC", "category": "TEST & MEASUREMENT", "brand": "HELLERMANN TYTON"}, {"code": "T235H", "name": "DIGITAL MULTIMETER WITH TEMPERATURE", "category": "TEST & MEASUREMENT", "brand": "HELLERMANN TYTON"}, {"code": "T1132", "name": "DIGITAL INSULATION TESTER 1000V", "category": "TEST & MEASUREMENT", "brand": "HELLERMANN TYTON"}, {"code": "SDSET1", "name": "STEP DRILL BIT SET 4-12/4-20/4-32MM", "category": "PUNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HTFT30", "name": "FISH TAPE NYLON 30M WITH STEEL END", "category": "CABLE INSTALLATION TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "V20HT3905", "name": "CONVOLUTED TUBING HIGH IMPACT 20MM 50M", "category": "TUBING ING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "V25HT3905", "name": "CONVOLUTED TUBING HIGH IMPACT 25MM 50M", "category": "TUBING ING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "BWR3", "name": "CABLE GLAND BWR ROTARY CONE NO 3", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "BWR4", "name": "CABLE GLAND BWR ROTARY CONE NO 4", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "BWR5", "name": "CABLE GLAND BWR ROTARY CONE NO 5", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "LV430840", "name": "MCCB NSX160N 3P 160A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV431812", "name": "MCCB NSX250N 3P 250A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "LV432876", "name": "MCCB NSX630N 3P 630A 50kA", "category": "AC MCCB", "brand": "SCHNEIDER"}, {"code": "A9N18356", "name": "C120H 3P 80A C CURVE 15kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "A9N18358", "name": "C120H 3P 125A C CURVE 15kA", "category": "ACTI 9", "brand": "SCHNEIDER"}, {"code": "81382", "name": "PRATIKA WANDER PLUG 16A 3P+E 415V IP44", "category": "PRATIKA INDUSTRIAL SOCKETS", "brand": "SCHNEIDER"}, {"code": "81386", "name": "PRATIKA WANDER PLUG 32A 3P+E 415V IP44", "category": "PRATIKA INDUSTRIAL SOCKETS", "brand": "SCHNEIDER"}, {"code": "81392", "name": "PRATIKA WALL SOCKET 16A 3P+E 415V IP44", "category": "PRATIKA INDUSTRIAL SOCKETS", "brand": "SCHNEIDER"}, {"code": "81396", "name": "PRATIKA WALL SOCKET 32A 3P+E 415V IP44", "category": "PRATIKA INDUSTRIAL SOCKETS", "brand": "SCHNEIDER"}, {"code": "BWR6", "name": "CABLE GLAND BWR ROTARY CONE NO 6", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "BWR7", "name": "CABLE GLAND BWR ROTARY CONE NO 7", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "BS1WT", "name": "CABLE GLAND BS NO 1 WHITE", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "BS1BK", "name": "CABLE GLAND BS NO 1 BLACK", "category": "CABLE GLANDS", "brand": "HELLERMANN TYTON"}, {"code": "HT400WT", "name": "CABLE CLIPS ROUND 4.0 MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT600WT", "name": "CABLE CLIPS ROUND 6.OMM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT800WT", "name": "CABLE CLIPS ROUND 8.OMM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT900WT", "name": "CABLE CLIPS ROUND 9.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT1000WT", "name": "CABLE CLIPS ROUND 10.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT1200WT", "name": "CABLE CLIPS ROUND 12.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT50WT", "name": "CABLE CLIPS FLAT 5.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT90WT", "name": "CABLE CLIPS FLAT 8.5MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT100WT", "name": "CABLE CLIPS FLAT 10.5MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT120WT", "name": "CABLE CLIPS FLAT 12.5MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "CP24PBK", "name": "HEATSHRINK CP 2.4/1.2MM BLACK 1M", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP32PBK", "name": "HEATSHRINK CP 3,2/1,2MM BLACK 1M", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP48PBK", "name": "HEATSHRINK CP 4.8/2.4MM BLACK 1M", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP64PBK", "name": "HEATSHRINK CP 6.4/3.2MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP95PBK", "name": "HEATSHRINK CP 9.5/4.8MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP127PBK", "name": "HEATSHRINK CP 12.7/6.4MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP190PBK", "name": "HEATSHRINK CP 19.0/9.5MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP190PRD", "name": "HEATSHRINK CP 190/9.5MM RED", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP190PYL", "name": "HEATSHRINK CP 190/9,5MM YELLOW", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP190PBL", "name": "HEATSHRINK CP 190/9.5MM BLUE", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP380TBK", "name": "HEATSHRINK CP 380/19.0MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP380TRD", "name": "HEATSHRINK CP 380/19.0MM RED", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP380TBL", "name": "HEATSHRINK CP 380/19.0MM BLUE", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP380TYL", "name": "HEATSHRINK CP 380/19.0MM YELLOW", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP762TBK", "name": "HEATSHRINK CP 762/38.1MM BLACK", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP762TRD", "name": "HEATSHRINK CP 762/38.1MM RED", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP762TYL", "name": "HEATSHRINK CP 762/38.1MM YELLOW", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "SGP762TBL", "name": "HEATSHRINK CP 762/38.1MM BLUE", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "TS35S", "name": "DIN RAIL 35 X 15 X 1.5MM 2M SLOTTED", "category": "DIN RAILS", "brand": "HELLERMANN TYTON"}, {"code": "TS35SSS", "name": "DIN RAIL 35 X 7.5 2M STAINLESS STEEL", "category": "DIN RAILS", "brand": "HELLERMANN TYTON"}, {"code": "CS15BK", "name": "CONNECTOR STRIP 15 AMP BLACK", "category": "CONNECTOR STRIPS", "brand": "HELLERMANN TYTON"}, {"code": "CS30BK", "name": "CONNECTOR STRIP 30 AMP BLACK", "category": "CONNECTOR STRIPS", "brand": "HELLERMANN TYTON"}, {"code": "CS60BK", "name": "CONNECTOR STRIP 60 AMP BLACK", "category": "CONNECTOR STRIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT3X6WBE", "name": "WALL BOX GALVANISED 3X6 (ECONOMY)", "category": "WALL BOXES", "brand": "HELLERMANN TYTON"}, {"code": "HT600WT", "name": "CABLE CLIPS ROUND 6.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "HT800WT", "name": "CABLE CLIPS ROUND 8.0MM WHITE", "category": "CABLE CLIPS", "brand": "HELLERMANN TYTON"}, {"code": "CP32PBK", "name": "HEATSHRINK CP 3.2/1.2MM BLACK 1M", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "CP190PYL", "name": "HEATSHRINK CP 190/9.5MM YELLOW", "category": "HEAT SHRINK", "brand": "HELLERMANN TYTON"}, {"code": "HT3X3WBE", "name": "WALL BOX GALVANISED 3X3 (ECONOMY)", "category": "WALL BOXES", "brand": "HELLERMANN TYTON"}, {"code": "HTB14", "name": "CABLE LUGS TINNED STANDARD 1.5 X 4", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB25", "name": "CABLE LUGS TINNED STANDARD 2.5 X 5", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB46", "name": "CABLE LUGS TINNED STANDARD 4 X 6", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB68", "name": "CABLE LUGS TINNED STANDARD 6 X 8", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB108", "name": "CABLE LUGS TINNED STANDARD 10 X 8", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB1010", "name": "CABLE LUGS TINNED STANDARD 10 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB1012", "name": "CABLE LUGS TINNED STANDARD 10 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB168", "name": "CABLE LUGS TINNED STANDARD 16 X 8", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB1610", "name": "CABLE LUGS TINNED STANDARD 16 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB1612", "name": "CABLE LUGS TINNED STANDARD 16 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB2510", "name": "CABLE LUGS TINNED STANDARD 25 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB2512", "name": "CABLE LUGS TINNED STANDARD 25 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB3510", "name": "CABLE LUGS TINNED STANDARD 35 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB3512", "name": "CABLE LUGS TINNED STANDARD 35 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB5010", "name": "CABLE LUGS TINNED STANDARD 50 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB5012", "name": "CABLE LUGS TINNED STANDARD 50 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB7010", "name": "CABLE LUGS TINNED STANDARD 70 X 10", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB7012", "name": "CABLE LUGS TINNED STANDARD 70 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB9512", "name": "CABLE LUGS TINNED STANDARD 95 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB12012", "name": "CABLE LUGS TINNED STANDARD 120 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB12016", "name": "CABLE LUGS TINNED STANDARD 120 X 16", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB15012", "name": "CABLE LUGS TINNED STANDARD 150 X 12", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB15016", "name": "CABLE LUGS TINNED STANDARD 150 X 16", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB24016", "name": "CABLE LUGS TINNED STANDARD 240 X 16", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB18516", "name": "CABLE LUGS TINNED STANDARD 185 X 16", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB30016", "name": "CABLE LUGS TINNED STANDARD 300 X 16", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB400", "name": "CABLE LUGS TINNED STANDARD 400.1", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB500", "name": "CABLE LUGS TINNED STANDARD 500.1", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB630", "name": "CABLE LUGS TINNED STANDARD 630.1", "category": "CABLE LUGS", "brand": "HELLERMANN TYTON"}, {"code": "HTB2F", "name": "CABLE FERRULE TINNED STANDARD 2.6", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB4F", "name": "CABLE FERRULE TINNED STANDARD 4.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB6F", "name": "CABLE FERRULE TINNED STANDARD 6", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB10F", "name": "CABLE FERRULE TINNED STANDARD 10.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB16F", "name": "CABLE FERRULE TINNED STANDARD 16.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB25F", "name": "CABLE FERRULE TINNED STANDARD 25.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB35F", "name": "CABLE FERRULE TINNED STANDARD 35.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB50F", "name": "CABLE FERRULE TINNED STANDARD 50.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB70F", "name": "CABLE FERRULE TINNED STANDARD 70.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB95F", "name": "CABLE FERRULE TINNED STANDARD 95.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB185F", "name": "CABLE FERRULE TINNED STANDARD 185.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB240F", "name": "CABLE FERRULE TINNED STANDARD 240.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "HTB300F", "name": "CABLE FERRULE TINNED STANDARD 300.1", "category": "CABLE FERRULES", "brand": "HELLERMANN TYTON"}, {"code": "LY2001", "name": "CRIMP TOOL ECONOMY 1.5-6MM CRIMP CUT & STRIP", "category": "CRIMPING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HYCP185KT", "name": "HYDRAULIC CRIMP TOOL KIT C/W 6 DIES", "category": "CRIMPING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HYCP240KT", "name": "HYDRAULIC CRIMP TOOL KIT C/W 7 DIES", "category": "CRIMPING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "LCP180", "name": "PLIERS COMBINATION 180MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "SEP160", "name": "PLIERS COMBINATION 160MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "LLN150", "name": "PLIER LONG NOSE 150MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "LLN200", "name": "PLIER LONG NOSE 200MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "SLN160", "name": "PLIER LONG NOSE 160MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "LDC150", "name": "SIDE CUTTER 160MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "LDC180", "name": "SIDE CUTTER 180MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "SDC160", "name": "CUTTER DIAGONAL 160MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "SDC180", "name": "CUTTER / PLIER DIAGONAL 180MM", "category": "HAND TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "T45200", "name": "VOLT TEST/SCREWDRIVER 100MM", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "T45000", "name": "VOLT TEST/SCREWDRIVER 65MM", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INS1565", "name": "SCREWDRIVER INSULATED 255X150", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INS1255", "name": "SCREWDRIVER INSULATED 220X125", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INSP2", "name": "SCREWDRIVER INSULATED PHILIPS NO 2", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INS1040", "name": "SCREWDRIVER INSULATED 180X100", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INSP1", "name": "SCREWDRIVER INSULATED PHILIPS NO 1", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "INS7525", "name": "SCREWDRIVER INSULATED 150X75", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "ECO6150E", "name": "SCREWDRIVER INSULATED 1000V FLAT 6.5X150X1.2", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "ECO5125E", "name": "SCREWDRIVER INSULATED 1000V FLAT 5.5X125X1.0", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "ECOPV1", "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH1X100", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "ECO4100", "name": "SCREWDRIVER INSULATED 1000V FLAT 4.0X100X0.8", "category": "SCREWDRIVERS IVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "ECOPV0", "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH0X75", "category": "SCREWDRIVERS DRIVERS & TESTERS", "brand": "HELLERMANN TYTON"}, {"code": "226/319", "name": "HACKSAW FLUSH ADJUST BAHCO 390MM", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HSBLD18U", "name": "HACKSAW BLADE BAHCO 18TPI 300MM", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HSBLD24U", "name": "HACKSAW BLADE BAHCO 24TPI 300MM", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "ELECKT", "name": "TOOLKIT ELECTRICAL WITH T235H DIGITAL MULTIMETER", "category": "TOOLKITS", "brand": "HELLERMANN TYTON"}, {"code": "PROKT", "name": "TOOLKIT ELECTRICAL WITH TBM3030 CLAMP ON", "category": "TOOLKITS", "brand": "HELLERMANN TYTON"}, {"code": "TOOLBAGM", "name": "TOOLKIT BAG LOGO MEDIUM", "category": "TOOLKITS", "brand": "HELLERMANN TYTON"}, {"code": "PCS", "name": "TOOL CASE-ZIP", "category": "TOOLKITS", "brand": "HELLERMANN TYTON"}, {"code": "306", "name": "HACKSAW LIGHTWEIGHT BAHCO 300MM", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "TOOLBAGBP", "name": "TOOLKIT BACKPACK HAMMER 300G AND ALLEN KEYS", "category": "TOOLKITS", "brand": "HELLERMANN TYTON"}, {"code": "CP20", "name": "CHASSIS PUNCH 20MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "CP25", "name": "CHASSIS PUNCH 25MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "CP32", "name": "CHASSIS PUNCH 32MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "CP40", "name": "CHASSIS PUNCH 40MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "CP50", "name": "CHASSIS PUNCH 50MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HS20", "name": "HOLE SAW CUTTER 20MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HS25", "name": "HOLE SAW CUTTER 25MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HS32", "name": "HOLE SAW CUTTER 32MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HS40", "name": "HOLE SAW CUTTER 40MM", "category": "PUNCH >PUNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "HS75", "name": "HOLE SAW CUTTER 75MM", "category": "PUNCH UNCH & DRILL TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "H3M", "name": "TAPE MEASURE 3M", "category": "MEASURING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "H5M", "name": "TAPE MEASURE 5M", "category": "MEASURING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "H10M", "name": "TAPE MEASURE 10M", "category": "MEASURING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "MHT3", "name": "TAPE MEASURE MAGNETIC 3M SELF LOCK", "category": "MEASURING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "MHT5", "name": "TAPE MEASURE MAGNETIC 5M SELF LOCK", "category": "MEASURING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "WAK1", "name": "KNIFE KNIFE & STRIPPER UTILITY RETRACTABLE", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "WAK3", "name": "KNIFE SNAP-OFF BLADE 19MM", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "WAK3BLD", "name": "BLADES FOR WAK3 SPARE 10 PACK", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "FT30", "name": "FISH TAPE 30M", "category": "CABLE INSTALLATION TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "H2230", "name": "FISH TAPE 30M NYLON", "category": "CABLE INSTALLATION TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "T30RBK", "name": "CABLE TIES INSULOK 148 X 3.5MM BLACK", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T30RNT", "name": "CABLE TIES INSULOK 148 X 3.5MM NATURAL", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50RNT", "name": "CABLE TIES INSULOK 148 X 3.5MM NATURAL", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50RBK", "name": "CABLE TIES INSULOK 198 X 4.7MM BLACK", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50IBK", "name": "CABLE TIES INSULOK 305 X 4.7MM BLACK", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50INT", "name": "CABLE TIES INSULOK 305 X 4.7MM NATURAL", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50LBK", "name": "CABLE TIES INSULOK 392 X 4.7MM BLACK", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "T50LNT", "name": "CABLE TIES INSULOK 392 X 4.7MM NATURAL", "category": "CABLE TIES", "brand": "HELLERMANN TYTON"}, {"code": "ST20", "name": "SPRAGUE TUBING 20MM (m)", "category": "TUBING UBING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "ST25", "name": "SPRAGUE TUBING 25MM (m)", "category": "TUBING UBING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "V20HT3905", "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M", "category": "TUBING UBING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "V25HT3905", "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M", "category": "TUBING UBING & CONDUIT", "brand": "HELLERMANN TYTON"}, {"code": "DPS12P-01", "name": "DOWN PANEL LIGHT SQUARE 12W", "category": "PANEL ANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "C3705W-03", "name": "CANDLE BULB 3000K E14", "category": "BULBS", "brand": "IFLUX"}, {"code": "C3705P-03", "name": "CANDLE BULB 6000K E27", "category": "BULBS", "brand": "IFLUX"}, {"code": "WAK1", "name": "KNIFE & STRIPPER UTILITY RETRACTABLE", "category": "CUTTING TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "45120", "name": "WIRE STRIPPER 10-18 AWG SOLID", "category": "WIRE TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "45121", "name": "WIRE STRIPPER T6 0.25-1.5MM", "category": "WIRE TOOLS", "brand": "HELLERMANN TYTON"}, {"code": "TBL20P-01", "name": "T-BULB E27 6000K 20W", "category": "BULBS", "brand": "IFLUX"}, {"code": "DPS-06P", "name": "DOWN PANEL LIGHT SQUARE 6W", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "A6005P-01", "name": "A60 BULB E27", "category": "BULBS", "brand": "IFLUX"}, {"code": "DL410W-02", "name": "DOWN LIGHT 10W", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "DPS18P-01", "name": "DOWN PANEL LIGHT SQUARE 18W", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "M1605W-02", "name": "MR16 5W BULB", "category": "BULBS", "brand": "IFLUX"}, {"code": "TU817P-03", "name": "T8 4FIT TUBES LED", "category": "TUBE LIGHTS", "brand": "IFLUX"}, {"code": "TU809P-03", "name": "T8 2FIT TUBES LED 9WATTS", "category": "TUBE LIGHTS", "brand": "IFLUX"}, {"code": "TU508P-03", "name": "T5 LED TUBE AND FITTING 2FIT", "category": "TUBE LIGHTS", "brand": "IFLUX"}, {"code": "TU516P-03", "name": "T5 LED TUBE AND FITTING 4FIT", "category": "TUBE LIGHTS", "brand": "IFLUX"}, {"code": "PLE36P-02", "name": "PANEL LIGHT 600X600 LED 36 WATTS", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "CEL09P-01", "name": "CEILING LIGHT 9W", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "STL60P-03", "name": "STREET LIGHT 60W", "category": "OUTDOOR DOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "PLLEOP-01", "name": "PROJECT LIGHT 150W LED", "category": "OUTDOOR OUTDOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "CMR30P-01", "name": "30W LED LIGHT", "category": "OUTDOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "CLL03D-01", "name": "150W FLOOD LIGHT LED", "category": "OUTDOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "P3012P-01", "name": "STREET LIGHT 120W", "category": "OUTDOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "CMR30P-01", "name": "80W STREET LIGHT 5700K (BLUE ONES)", "category": "OUTDOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "UWL06P-01", "name": "6W UNDER WATER LAMP 12V DC", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "UWL06D-01", "name": "6W UNDER WATER LAMP 12V DC 5700K", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "UWL12D-01", "name": "12W UNDER WATER LAMP 12V DC", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "UGL07P-01", "name": "UNDER GROUND LAMP 7W DC 24V", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "UGL12P-01", "name": "UNDER GROUND LAMP 12W DC 24V", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "STL120P/03", "name": "UNDERWATER LIGHTS", "category": "SPECIALTY LIGHTING", "brand": "IFLUX"}, {"code": "SSL40P-13", "name": "40W SOLAR STREET LIGHT WITH PANEL PANEL & BATTERY", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "DL40W-01", "name": "ROUND SOLAR STREET LIGHT", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "30W LIGHT", "name": "20W SOLAR PANELS", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "SOLAR STREET LIGHT 100W", "name": "SOLAR STREET LIGHT 100W", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "30W INTERGRATED SOLAR STREET LIGHT", "name": "30W INTEGRATED SOLAR STREET LIGHT", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "SWH1G1W-09", "name": "1 GANG 1 WAY SWITCH", "category": "SWITCHES ES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH1G2W-09", "name": "1 GANG 2 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH2G1W-09", "name": "2 GANG 1 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH2G2W-09", "name": "2 GANG 2 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH3G1W-09", "name": "3 GANG 1 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH3G2W-09", "name": "3 GANG 2 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH4G1W-09", "name": "4 GANG 1 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWH4G2W-09", "name": "4 GANG 2 WAY SWITCH", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SWHDPL-09", "name": "20A GEYSER SWITCH", "category": "SWITCHES SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SSL40P-13", "name": "40W SOLAR STREET LIGHT WITH PANEL & BATTERY", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "SOK13S-09", "name": "13A SINGLE SOCKET", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "SOK15S-09", "name": "15A SINGLE SOCKET", "category": "SWITCHES & SOCKETS", "brand": "IFLUX"}, {"code": "HBLAOP-04", "name": "100W HIGHBAY FITTING LED (MOTOR (MOTOR & COVER)", "category": "HIGHBAY BAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "HBLAOP-04", "name": "100W HIGHBAY FITTING LED (MOTORS)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "HBLFOP-04", "name": "100W HIGHBAY FITTING LED (COVERS)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "HBLKOP-04", "name": "150W HIGHBAY FITTING LED (MOTORS)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "HBLKOP-04", "name": "200W HIGHBAY FITTING LED (MOTORS)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "PLLFOP-02", "name": "200W HIGHBAY FITTING LED (COVERS)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "P1220W-01", "name": "20W POWER SUPPLY/DRIVER", "category": "ACCESSORIES & DRIVERS", "brand": "IFLUX"}, {"code": "PAR30 OPAL STAR 12W 6000K BULB", "name": "PAR30 OPAL STAR BULB", "category": "BULBS", "brand": "IFLUX"}, {"code": "10W 3000K", "name": "10W 3000K LIGHT", "category": "BULBS", "brand": "IFLUX"}, {"code": "30W CEILING LIGHT", "name": "30W CEILING LIGHT", "category": "PANEL & DOWN LIGHTS", "brand": "IFLUX"}, {"code": "STL120P-03", "name": "INTEGRATED SOLAR STREET LIGHT 120W", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "SSL60P-13", "name": "60W SOLAR STREET LIGHT WITH PANEL & BATTERY", "category": "SOLAR LIGHTS", "brand": "IFLUX"}, {"code": "FL6030P-01", "name": "FLOOD LIGHT 30W LED 6000K", "category": "OUTDOOR DOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "FL6050P-01", "name": "FLOOD LIGHT 50W LED 6000K", "category": "OUTDOOR DOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "FL6100P-01", "name": "FLOOD LIGHT 100W LED 6000K", "category": "OUTDOOR DOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "FL6200P-01", "name": "FLOOD LIGHT 200W LED 6000K", "category": "OUTDOOR DOOR & STREET LIGHTS", "brand": "IFLUX"}, {"code": "LS2835-60", "name": "LED STRIP LIGHT 2835 6OLED/M 5M ROLL", "category": "ACCESSORIES & DRIVERS", "brand": "IFLUX"}, {"code": "P1260W-01", "name": "60W POWER SUPPLY/DRIVER 12V DC", "category": "ACCESSORIES & DRIVERS", "brand": "IFLUX"}, {"code": "RIIO SUN-II", "name": "TBB RIIO SUN-II 5KVA ALL-IN-ONE INVERTER", "category": "INVERTERS", "brand": "TBB"}, {"code": "RIIO SUN-II 8KVA", "name": "TBB RIIO SUN-II 8KVA PRO INVERTER", "category": "INVERTERS", "brand": "TBB"}, {"code": "SUNPAL 5KW", "name": "SUNPAL 5KW ALL-IN-ONE INVERTER", "category": "INVERTERS", "brand": "SUNPAL"}, {"code": "CH4.0S", "name": "ENERGIER APOLLO ALL-IN-ONE INVERTER", "category": "INVERTERS", "brand": "TBB"}, {"code": "DEYE 5KW", "name": "DEYE 5KW INVERTER SINGLE PHASE", "category": "INVERTERS", "brand": "DEYE"}, {"code": "DEYE 8KW", "name": "DEYE 8KW INVERTER SINGLE PHASE", "category": "INVERTERS", "brand": "DEYE"}, {"code": "DEYE 12KW", "name": "DEYE 12KW INVERTER SINGLE PHASE", "category": "INVERTERS", "brand": "DEYE"}, {"code": "DEYE 12KW 3PH", "name": "DEYE 12KW INVERTER THREE PHASE", "category": "INVERTERS", "brand": "DEYE"}, {"code": "DEYE 50KW", "name": "DEYE 50KW 3PHASE HV INVERTER", "category": "INVERTERS", "brand": "DEYE"}, {"code": "SUNSYNK 50KW", "name": "SUNSYNK 50KW INVERTER", "category": "INVERTERS", "brand": "SUNSYNK"}, {"code": "GS105", "name": "TBB GS105 48V 212Ah LITHIUM BATTERY", "category": "BATTERIES", "brand": "TBB"}, {"code": "DL5.OC PRO", "name": "DYNESS DL5.OC PRO LITHIUM BATTERY", "category": "BATTERIES", "brand": "DYNESS"}, {"code": "12.8V 100AH", "name": "12.8V 100 AH LITHIUM BATTERY", "category": "BATTERIES", "brand": "GREEN ENERGY"}, {"code": "12.8V 200AH", "name": "12.8V 200AH LITHIUM BATTERY", "category": "BATTERIES", "brand": "GREEN ENERGY"}, {"code": "615W BI-FACIAL", "name": "615W BI-FACIAL TRINASOLAR PANEL", "category": "SOLAR PANELS", "brand": "TRINASOLAR"}, {"code": "0.75KW PUMP", "name": "0.75KW SINGLE PHASE SOLAR PUMP INVERTER", "category": "PUMP INVERTERS", "brand": "GREEN ENERGY"}, {"code": "1.5KW PUMP", "name": "1.5KW SINGLE PHASE SOLAR PUMP INVERTER", "category": "PUMP INVERTERS", "brand": "GREEN ENERGY"}, {"code": "HBLAOP-04", "name": "100W HIGHBAY FITTING LED (MOTOR & COVER)", "category": "HIGHBAY & INDUSTRIAL LIGHTING", "brand": "IFLUX"}, {"code": "LS2835-60", "name": "LED STRIP LIGHT 2835 60LED/M 5M ROLL", "category": "ACCESSORIES & DRIVERS", "brand": "IFLUX"}, {"code": "DL5.0C PRO", "name": "DYNESS DL5.0C PRO LITHIUM BATTERY", "category": "BATTERIES", "brand": "DYNESS"}, {"code": "2.2KW PUMP", "name": "2.2KW SINGLE PHASE SOLAR PUMP INVERTER", "category": "PUMP INVERTERS", "brand": "GREEN ENERGY"}, {"code": "PV6MM", "name": "PV CABLE 6MM", "category": "DC CABLE", "brand": "GREEN ENERGY"}, {"code": "MC4", "name": "MC4 CONNECTOR", "category": "DC CABLE", "brand": "GREEN ENERGY"}, {"code": "SL7N-63", "name": "DC MCB 2P 63A 550V", "category": "SUNTREE DC PRODUCTS", "brand": "SUNTREE"}, {"code": "SRF-30", "name": "FUSE LINK SRF-30 30A 1000V", "category": "SUNTREE DC PRODUCTS", "brand": "SUNTREE"}, {"code": "COMB4-1", "name": "4 IN 1 OUT COMBINER BOX", "category": "SUNTREE DC PRODUCTS", "brand": "SUNTREE"}, {"code": "COMB8-2", "name": "8 IN 2 OUT COMBINER BOX", "category": "SUNTREE DC PRODUCTS", "brand": "SUNTREE"}]
+[
+  {
+    "code": "KB25_WE",
+    "name": "13A 250V 2 GANG SWITCH SOCKET",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB15_15_WE",
+    "name": "15A 250V 1 GANG SWITCH SKT WH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB15_WE",
+    "name": "13A 250V 1 GANG SWITCH SOCKET",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB30_WE",
+    "name": "1 GANG BLANK PLATE",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KBT30_WE",
+    "name": "TWIN GANG BLANK PLATE",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31_WE",
+    "name": "16AX 250V 1GANG 2 WAY SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31_1_WE",
+    "name": "16AX 250V 1GANG 1WAY SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32_1_WE",
+    "name": "16AX 250V 2GANG 1 WAY SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32_WE",
+    "name": "16AX 250V 2GANG 2 WAY SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31TV WE",
+    "name": "1 GANG TV CO-AXIAL OUTLET",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB413S",
+    "name": "13A 250V 1 Gang 3 Pin Universal Socket",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32RJ6",
+    "name": "2G CAT6 DATA OUTLET W/SHUTTER",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31RJ6_WE",
+    "name": "1 GANG CAT 6 DATA OL W/O SHT",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32TV",
+    "name": "2 GANG TV CO-AXIAL OUTLET",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31TS_WE",
+    "name": "1 GANG TELEPHONE OUTLET SHUTT",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31RF250_WE",
+    "name": "1 GANG 250VA FAN CONTROLLER",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31RD400_WE",
+    "name": "1 GANG 400W LIGHT DIMMER",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31IA_WE",
+    "name": "10AX 250V INTERMEDIATE SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KBT426_16S_WE",
+    "name": "16A 250V TWN G SCHUKO SOCKT WS",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB33_1",
+    "name": "16AX 250V 3GANG 1 WAY SWITCH",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31EKT_WE",
+    "name": "HOTEL KEY CARD",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KBT15D45N_WE",
+    "name": "45A 250V COOKER CONTROL UNIT",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31USB_WE",
+    "name": "1 x 2.1A USB Charger",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32USB WE",
+    "name": "2 x 2.1A USB Charger",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53106",
+    "name": "EZ9 MCB 1P 6A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53110",
+    "name": "EZ9 MCB 1P 10A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53116",
+    "name": "EZ9 MCB 1P 16A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53120",
+    "name": "EZ9 MCB 1P 20A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53132",
+    "name": "EZ9 MCB 1P 32A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53140",
+    "name": "EZ9 MCB 1P 40A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53150",
+    "name": "EZ9 MCB 1P 50A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53163",
+    "name": "EZ9 MCB 1P 63A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53210",
+    "name": "EZ9 MCB 2P 10A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53220",
+    "name": "EZ9 MCB 2P 20A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53232",
+    "name": "EZ9 MCB 2P 32A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53240",
+    "name": "EZ9 MCB 2P 40A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53250",
+    "name": "EZ9 MCB 2P 50A C 3KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB31TV_WE",
+    "name": "1 GANG TV CO-AXIAL OUTLET",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "KB32USB_WE",
+    "name": "2 x 2.1A USB Charger",
+    "category": "VIVACE",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53263",
+    "name": "EZ9 MCB 2P 63A C 3kA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53316",
+    "name": "EZ9 MCB 3P 16A C 3KA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53320",
+    "name": "EZ9 MCB 3P 20A C 3KA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53332",
+    "name": "EZ9 MCB 3P 32A C 3kA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53340",
+    "name": "EZ9 MCB 3P 40A C 3kA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53350",
+    "name": "EZ9 MCB 3P 50A C 3KA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9F53363",
+    "name": "EZ9 MCB 3P 63A C 3kA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9L33120",
+    "name": "EASY9 SURGE T2 1P 20 KA 230V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZ9L33720",
+    "name": "EASY9 SURGE T2 3P-N 20kA 400V",
+    "category": "EASY 9 MCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64106",
+    "name": "IC60A 1P 6A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64110",
+    "name": "IC60A 1P 10A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64116",
+    "name": "IC60A 1P 16A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64120",
+    "name": "IC60A 1P 20A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64125",
+    "name": "IC60A 1P 25A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64132",
+    "name": "IC60A 1P 32A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64140",
+    "name": "IC60A 1P 40A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64150",
+    "name": "IC60A 1P 50A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9F64163",
+    "name": "IC60A 1P 63A C CURVE 6kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431 2 SA",
+    "name": "16AX 1GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431 1 SA",
+    "name": "16AX 1 GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432_2_SA",
+    "name": "16AX 2GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432_1_SA",
+    "name": "16AX 2GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T25 SA",
+    "name": "13A 2 GANG SWITCHED SOCKET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T15D45N_SA",
+    "name": "45A D/POLE SWITCH+S/SOCKET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8415_SA",
+    "name": "13A 1 GANG SWITCHED SOCKET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8433_2_SA",
+    "name": "16AX 3GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8433_1_SA",
+    "name": "16AX 3GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431RJS_6_SA",
+    "name": "1 GANG CAT 6 DATA OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432RJS4 SA",
+    "name": "2 GANG TELEPHONE OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_I_SA",
+    "name": "10AX INTERMEDIATE SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431RJS4_SA",
+    "name": "1 GANG TELEPHONE OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T34_2 SA",
+    "name": "16AX 4 GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432RJS_6_SA",
+    "name": "2 GANG CAT 6 DATA OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431TVM_SA",
+    "name": "1 GANG TV CO-AXIAL OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8434 1 SA",
+    "name": "16AX 4 GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T727V_SA",
+    "name": "UNIVERSAL SHAVER UNIT SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431D20_SA",
+    "name": "20A 1G FLAT DP SWITCH NEON SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431USB_SA",
+    "name": "1 x 2.1A USB Charger",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_2_SA",
+    "name": "16AX 1GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_1_SA",
+    "name": "16AX 1 GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T25_SA",
+    "name": "13A 2 GANG SWITCHED SOCKET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432RJS4_SA",
+    "name": "2 GANG TELEPHONE OUTLET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T34_2_SA",
+    "name": "16AX 4 GANG 2 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8434_1_SA",
+    "name": "16AX 4 GANG 1 WAY SWITCH SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432USB_SA",
+    "name": "2 x 2.1A USB Charger",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84426_16TS_SA",
+    "name": "16A 1G INTERNATIONAL SOCKET SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84426_15_SA",
+    "name": "15A 1 GANG S/SOCKET ROUND SA",
+    "category": "ZENCELO SA(SILVER)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8415_SZ",
+    "name": "13A 1 GANG SWITCHED SOCKET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_1_SZ",
+    "name": "16AX 1 GANG 1 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_2_SZ",
+    "name": "16AX 1GANG 2 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431_I_SZ",
+    "name": "10AX INTERMEDIATE SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431D20_SZ",
+    "name": "20A 1G FLAT DP SWITCH NEON SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431RJS_6_SZ",
+    "name": "1 GANG CAT 6 DATA OUTLET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431RJS4_SZ",
+    "name": "1 GANG TELEPHONE OUTLET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431TVM_SZ",
+    "name": "1 GANG TV CO-AXIAL OUTLET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8431USB_SZ",
+    "name": "1 x 2.1A USB Charger",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432_1_SZ",
+    "name": "16AX 2GANG 1 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432_2_SZ",
+    "name": "16AX 2GANG 2 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432RJS_6_SZ",
+    "name": "2 GANG CAT 6 DATA OUTLET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432RJS4_SZ",
+    "name": "2 GANG TELEPHONE OUTLET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8432USB_SZ",
+    "name": "2 x 2.1A USB Charger",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8433_1_SZ",
+    "name": "16AX 3GANG 1 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8433_2_SZ",
+    "name": "16AX 3GANG 2 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E8434_1_SZ",
+    "name": "16AX 4 GANG 1 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84426_15_SZ",
+    "name": "1 GANG 3 ROUND PIN SWITCH SOCKET WITH SHUTTER",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84426_16IS_SZ",
+    "name": "16A 1G INTERNATIONAL SOCKET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T15D45N_SZ",
+    "name": "45A D/POLE SWITCH+S/SOCKET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T25_SZ",
+    "name": "13A 2 GANG SWITCHED SOCKET SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T34_2_SZ",
+    "name": "16AX 4 GANG 2 WAY SWITCH SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "E84T727V_SZ",
+    "name": "UNIVERSAL SHAVER UNIT SZ",
+    "category": "ZENCELO SZ(BROWN)",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME05",
+    "name": "MCB.THER/MAG 0.63-1.0A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME06",
+    "name": "MCB.THER/MAG 1.0-1.6A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME08",
+    "name": "MCB.THER/MAG 2.5-4.0A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME10",
+    "name": "MCB.THER/MAG 4.0-6.3A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME14",
+    "name": "MCB.THER/MAG 6-10A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME22",
+    "name": "GV2ME MOTOR CB THERM/MAG 20-25 ROCKER",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GV2ME32",
+    "name": "MCB.THER/MAG 24-32A",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GVAE11",
+    "name": "AUX BLOCK GV2 FRONT 1NO + 1NC",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "GVAN11",
+    "name": "AUX.BLOCK.SIDE.1NO+1NC",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LA9D09978",
+    "name": "INTERLOCK FOR CONT 9-25",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LA9D50978",
+    "name": "MECH ONLY INTERLOCK FOR D80/95 AC",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LA9D80978",
+    "name": "MECH ONLY INTERLOCK FOR D80/95 DC",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LADN02",
+    "name": "CONTACTS BLOCK",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LADN11",
+    "name": "AUX CONT. 1N/O+1N/C",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LADN20",
+    "name": "AUX CONT 2N/O",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LADN22",
+    "name": "AUX CONT 2N/O+2N/C",
+    "category": "CONTACTORS & MOTOR BREAKERS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZC100H3060",
+    "name": "MCCB 3P 60A 30kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "EZC100H3100",
+    "name": "MCCB 3P 100A 30kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV429670",
+    "name": "MCCB NSX100N 3P 100A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV430840",
+    "name": "MCCB NSX16ON 3P 160A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV431812",
+    "name": "MCCB NSX25ON 3P 250A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV432676",
+    "name": "MCCB NSX400N 3P 400A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV432876",
+    "name": "MCCB NSX63ON 3P 630A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9N18356",
+    "name": "C12OH 3P 8OA C CURVE 15kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9N18357",
+    "name": "C120H 3P 100A C CURVE 15kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9N18358",
+    "name": "C12OH 3P 125A C CURVE 15kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "XB4BW33M5",
+    "name": "ILLUMINATED PUSH BUTTON GREEN 220V",
+    "category": "HARMONY XB4",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "XB4BW34M5",
+    "name": "ILLUMINATED PUSH BUTTON RED 220V",
+    "category": "HARMONY XB4",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "XB4BD21",
+    "name": "SELECTOR SWITCH 2 POSITION",
+    "category": "HARMONY XB4",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "XB4BS8445",
+    "name": "EMERGENCY STOP PUSH BUTTON 40MM",
+    "category": "HARMONY XB4",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "MK7",
+    "name": "TENSIONING TOOL FOR CABLE TIES UP TO 4.8MM",
+    "category": "CABLE TIE TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "MK9",
+    "name": "TENSIONING TOOL FOR CABLE TIES UP TO 13.5MM",
+    "category": "CABLE TIE TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "RO202",
+    "name": "RITE-ON DISPENSER WITH MARKER AND LABEL ROLL",
+    "category": "CABLE IDENTIFICATION",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "IT18R",
+    "name": "IDENTIFICATION TIE 100 X 2.5MM NATURAL",
+    "category": "CABLE IDENTIFICATION",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "B7012",
+    "name": "BI-METAL LUG 70MM X 12MM",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "B9512",
+    "name": "BI-METAL LUG 95MM X 12MM",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TBM3030",
+    "name": "DIGITAL CLAMP METER 600A AC/DC",
+    "category": "TEST & MEASUREMENT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T235H",
+    "name": "DIGITAL MULTIMETER WITH TEMPERATURE",
+    "category": "TEST & MEASUREMENT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T1132",
+    "name": "DIGITAL INSULATION TESTER 1000V",
+    "category": "TEST & MEASUREMENT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SDSET1",
+    "name": "STEP DRILL BIT SET 4-12/4-20/4-32MM",
+    "category": "PUNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTFT30",
+    "name": "FISH TAPE NYLON 30M WITH STEEL END",
+    "category": "CABLE INSTALLATION TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "V20HT3905",
+    "name": "CONVOLUTED TUBING HIGH IMPACT 20MM 50M",
+    "category": "TUBING ING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "V25HT3905",
+    "name": "CONVOLUTED TUBING HIGH IMPACT 25MM 50M",
+    "category": "TUBING ING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BWR3",
+    "name": "CABLE GLAND BWR ROTARY CONE NO 3",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BWR4",
+    "name": "CABLE GLAND BWR ROTARY CONE NO 4",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BWR5",
+    "name": "CABLE GLAND BWR ROTARY CONE NO 5",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LV430840",
+    "name": "MCCB NSX160N 3P 160A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV431812",
+    "name": "MCCB NSX250N 3P 250A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "LV432876",
+    "name": "MCCB NSX630N 3P 630A 50kA",
+    "category": "AC MCCB",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9N18356",
+    "name": "C120H 3P 80A C CURVE 15kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "A9N18358",
+    "name": "C120H 3P 125A C CURVE 15kA",
+    "category": "ACTI 9",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "81382",
+    "name": "PRATIKA WANDER PLUG 16A 3P+E 415V IP44",
+    "category": "PRATIKA INDUSTRIAL SOCKETS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "81386",
+    "name": "PRATIKA WANDER PLUG 32A 3P+E 415V IP44",
+    "category": "PRATIKA INDUSTRIAL SOCKETS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "81392",
+    "name": "PRATIKA WALL SOCKET 16A 3P+E 415V IP44",
+    "category": "PRATIKA INDUSTRIAL SOCKETS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "81396",
+    "name": "PRATIKA WALL SOCKET 32A 3P+E 415V IP44",
+    "category": "PRATIKA INDUSTRIAL SOCKETS",
+    "brand": "SCHNEIDER"
+  },
+  {
+    "code": "BWR6",
+    "name": "CABLE GLAND BWR ROTARY CONE NO 6",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BWR7",
+    "name": "CABLE GLAND BWR ROTARY CONE NO 7",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BS1WT",
+    "name": "CABLE GLAND BS NO 1 WHITE",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "BS1BK",
+    "name": "CABLE GLAND BS NO 1 BLACK",
+    "category": "CABLE GLANDS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT400WT",
+    "name": "CABLE CLIPS ROUND 4.0 MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT600WT",
+    "name": "CABLE CLIPS ROUND 6.OMM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT800WT",
+    "name": "CABLE CLIPS ROUND 8.OMM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT900WT",
+    "name": "CABLE CLIPS ROUND 9.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT1000WT",
+    "name": "CABLE CLIPS ROUND 10.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT1200WT",
+    "name": "CABLE CLIPS ROUND 12.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT50WT",
+    "name": "CABLE CLIPS FLAT 5.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT90WT",
+    "name": "CABLE CLIPS FLAT 8.5MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT100WT",
+    "name": "CABLE CLIPS FLAT 10.5MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT120WT",
+    "name": "CABLE CLIPS FLAT 12.5MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP24PBK",
+    "name": "HEATSHRINK CP 2.4/1.2MM BLACK 1M",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP32PBK",
+    "name": "HEATSHRINK CP 3,2/1,2MM BLACK 1M",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP48PBK",
+    "name": "HEATSHRINK CP 4.8/2.4MM BLACK 1M",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP64PBK",
+    "name": "HEATSHRINK CP 6.4/3.2MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP95PBK",
+    "name": "HEATSHRINK CP 9.5/4.8MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP127PBK",
+    "name": "HEATSHRINK CP 12.7/6.4MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP190PBK",
+    "name": "HEATSHRINK CP 19.0/9.5MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP190PRD",
+    "name": "HEATSHRINK CP 190/9.5MM RED",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP190PYL",
+    "name": "HEATSHRINK CP 190/9,5MM YELLOW",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP190PBL",
+    "name": "HEATSHRINK CP 190/9.5MM BLUE",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP380TBK",
+    "name": "HEATSHRINK CP 380/19.0MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP380TRD",
+    "name": "HEATSHRINK CP 380/19.0MM RED",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP380TBL",
+    "name": "HEATSHRINK CP 380/19.0MM BLUE",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP380TYL",
+    "name": "HEATSHRINK CP 380/19.0MM YELLOW",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP762TBK",
+    "name": "HEATSHRINK CP 762/38.1MM BLACK",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP762TRD",
+    "name": "HEATSHRINK CP 762/38.1MM RED",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP762TYL",
+    "name": "HEATSHRINK CP 762/38.1MM YELLOW",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SGP762TBL",
+    "name": "HEATSHRINK CP 762/38.1MM BLUE",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TS35S",
+    "name": "DIN RAIL 35 X 15 X 1.5MM 2M SLOTTED",
+    "category": "DIN RAILS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TS35SSS",
+    "name": "DIN RAIL 35 X 7.5 2M STAINLESS STEEL",
+    "category": "DIN RAILS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CS15BK",
+    "name": "CONNECTOR STRIP 15 AMP BLACK",
+    "category": "CONNECTOR STRIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CS30BK",
+    "name": "CONNECTOR STRIP 30 AMP BLACK",
+    "category": "CONNECTOR STRIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CS60BK",
+    "name": "CONNECTOR STRIP 60 AMP BLACK",
+    "category": "CONNECTOR STRIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT3X6WBE",
+    "name": "WALL BOX GALVANISED 3X6 (ECONOMY)",
+    "category": "WALL BOXES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT600WT",
+    "name": "CABLE CLIPS ROUND 6.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT800WT",
+    "name": "CABLE CLIPS ROUND 8.0MM WHITE",
+    "category": "CABLE CLIPS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP32PBK",
+    "name": "HEATSHRINK CP 3.2/1.2MM BLACK 1M",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP190PYL",
+    "name": "HEATSHRINK CP 190/9.5MM YELLOW",
+    "category": "HEAT SHRINK",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HT3X3WBE",
+    "name": "WALL BOX GALVANISED 3X3 (ECONOMY)",
+    "category": "WALL BOXES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB14",
+    "name": "CABLE LUGS TINNED STANDARD 1.5 X 4",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB25",
+    "name": "CABLE LUGS TINNED STANDARD 2.5 X 5",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB46",
+    "name": "CABLE LUGS TINNED STANDARD 4 X 6",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB68",
+    "name": "CABLE LUGS TINNED STANDARD 6 X 8",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB108",
+    "name": "CABLE LUGS TINNED STANDARD 10 X 8",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB1010",
+    "name": "CABLE LUGS TINNED STANDARD 10 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB1012",
+    "name": "CABLE LUGS TINNED STANDARD 10 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB168",
+    "name": "CABLE LUGS TINNED STANDARD 16 X 8",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB1610",
+    "name": "CABLE LUGS TINNED STANDARD 16 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB1612",
+    "name": "CABLE LUGS TINNED STANDARD 16 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB2510",
+    "name": "CABLE LUGS TINNED STANDARD 25 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB2512",
+    "name": "CABLE LUGS TINNED STANDARD 25 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB3510",
+    "name": "CABLE LUGS TINNED STANDARD 35 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB3512",
+    "name": "CABLE LUGS TINNED STANDARD 35 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB5010",
+    "name": "CABLE LUGS TINNED STANDARD 50 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB5012",
+    "name": "CABLE LUGS TINNED STANDARD 50 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB7010",
+    "name": "CABLE LUGS TINNED STANDARD 70 X 10",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB7012",
+    "name": "CABLE LUGS TINNED STANDARD 70 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB9512",
+    "name": "CABLE LUGS TINNED STANDARD 95 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB12012",
+    "name": "CABLE LUGS TINNED STANDARD 120 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB12016",
+    "name": "CABLE LUGS TINNED STANDARD 120 X 16",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB15012",
+    "name": "CABLE LUGS TINNED STANDARD 150 X 12",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB15016",
+    "name": "CABLE LUGS TINNED STANDARD 150 X 16",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB24016",
+    "name": "CABLE LUGS TINNED STANDARD 240 X 16",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB18516",
+    "name": "CABLE LUGS TINNED STANDARD 185 X 16",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB30016",
+    "name": "CABLE LUGS TINNED STANDARD 300 X 16",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB400",
+    "name": "CABLE LUGS TINNED STANDARD 400.1",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB500",
+    "name": "CABLE LUGS TINNED STANDARD 500.1",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB630",
+    "name": "CABLE LUGS TINNED STANDARD 630.1",
+    "category": "CABLE LUGS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB2F",
+    "name": "CABLE FERRULE TINNED STANDARD 2.6",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB4F",
+    "name": "CABLE FERRULE TINNED STANDARD 4.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB6F",
+    "name": "CABLE FERRULE TINNED STANDARD 6",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB10F",
+    "name": "CABLE FERRULE TINNED STANDARD 10.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB16F",
+    "name": "CABLE FERRULE TINNED STANDARD 16.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB25F",
+    "name": "CABLE FERRULE TINNED STANDARD 25.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB35F",
+    "name": "CABLE FERRULE TINNED STANDARD 35.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB50F",
+    "name": "CABLE FERRULE TINNED STANDARD 50.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB70F",
+    "name": "CABLE FERRULE TINNED STANDARD 70.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB95F",
+    "name": "CABLE FERRULE TINNED STANDARD 95.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB185F",
+    "name": "CABLE FERRULE TINNED STANDARD 185.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB240F",
+    "name": "CABLE FERRULE TINNED STANDARD 240.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HTB300F",
+    "name": "CABLE FERRULE TINNED STANDARD 300.1",
+    "category": "CABLE FERRULES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LY2001",
+    "name": "CRIMP TOOL ECONOMY 1.5-6MM CRIMP CUT & STRIP",
+    "category": "CRIMPING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HYCP185KT",
+    "name": "HYDRAULIC CRIMP TOOL KIT C/W 6 DIES",
+    "category": "CRIMPING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HYCP240KT",
+    "name": "HYDRAULIC CRIMP TOOL KIT C/W 7 DIES",
+    "category": "CRIMPING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LCP180",
+    "name": "PLIERS COMBINATION 180MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SEP160",
+    "name": "PLIERS COMBINATION 160MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LLN150",
+    "name": "PLIER LONG NOSE 150MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LLN200",
+    "name": "PLIER LONG NOSE 200MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SLN160",
+    "name": "PLIER LONG NOSE 160MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LDC150",
+    "name": "SIDE CUTTER 160MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "LDC180",
+    "name": "SIDE CUTTER 180MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SDC160",
+    "name": "CUTTER DIAGONAL 160MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "SDC180",
+    "name": "CUTTER / PLIER DIAGONAL 180MM",
+    "category": "HAND TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T45200",
+    "name": "VOLT TEST/SCREWDRIVER 100MM",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T45000",
+    "name": "VOLT TEST/SCREWDRIVER 65MM",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INS1565",
+    "name": "SCREWDRIVER INSULATED 255X150",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INS1255",
+    "name": "SCREWDRIVER INSULATED 220X125",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INSP2",
+    "name": "SCREWDRIVER INSULATED PHILIPS NO 2",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INS1040",
+    "name": "SCREWDRIVER INSULATED 180X100",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INSP1",
+    "name": "SCREWDRIVER INSULATED PHILIPS NO 1",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "INS7525",
+    "name": "SCREWDRIVER INSULATED 150X75",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ECO6150E",
+    "name": "SCREWDRIVER INSULATED 1000V FLAT 6.5X150X1.2",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ECO5125E",
+    "name": "SCREWDRIVER INSULATED 1000V FLAT 5.5X125X1.0",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ECOPV1",
+    "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH1X100",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ECO4100",
+    "name": "SCREWDRIVER INSULATED 1000V FLAT 4.0X100X0.8",
+    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ECOPV0",
+    "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH0X75",
+    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "226/319",
+    "name": "HACKSAW FLUSH ADJUST BAHCO 390MM",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HSBLD18U",
+    "name": "HACKSAW BLADE BAHCO 18TPI 300MM",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HSBLD24U",
+    "name": "HACKSAW BLADE BAHCO 24TPI 300MM",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ELECKT",
+    "name": "TOOLKIT ELECTRICAL WITH T235H DIGITAL MULTIMETER",
+    "category": "TOOLKITS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "PROKT",
+    "name": "TOOLKIT ELECTRICAL WITH TBM3030 CLAMP ON",
+    "category": "TOOLKITS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TOOLBAGM",
+    "name": "TOOLKIT BAG LOGO MEDIUM",
+    "category": "TOOLKITS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "PCS",
+    "name": "TOOL CASE-ZIP",
+    "category": "TOOLKITS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "306",
+    "name": "HACKSAW LIGHTWEIGHT BAHCO 300MM",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TOOLBAGBP",
+    "name": "TOOLKIT BACKPACK HAMMER 300G AND ALLEN KEYS",
+    "category": "TOOLKITS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP20",
+    "name": "CHASSIS PUNCH 20MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP25",
+    "name": "CHASSIS PUNCH 25MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP32",
+    "name": "CHASSIS PUNCH 32MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP40",
+    "name": "CHASSIS PUNCH 40MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "CP50",
+    "name": "CHASSIS PUNCH 50MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HS20",
+    "name": "HOLE SAW CUTTER 20MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HS25",
+    "name": "HOLE SAW CUTTER 25MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HS32",
+    "name": "HOLE SAW CUTTER 32MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HS40",
+    "name": "HOLE SAW CUTTER 40MM",
+    "category": "PUNCH >PUNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "HS75",
+    "name": "HOLE SAW CUTTER 75MM",
+    "category": "PUNCH UNCH & DRILL TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "H3M",
+    "name": "TAPE MEASURE 3M",
+    "category": "MEASURING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "H5M",
+    "name": "TAPE MEASURE 5M",
+    "category": "MEASURING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "H10M",
+    "name": "TAPE MEASURE 10M",
+    "category": "MEASURING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "MHT3",
+    "name": "TAPE MEASURE MAGNETIC 3M SELF LOCK",
+    "category": "MEASURING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "MHT5",
+    "name": "TAPE MEASURE MAGNETIC 5M SELF LOCK",
+    "category": "MEASURING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "WAK1",
+    "name": "KNIFE KNIFE & STRIPPER UTILITY RETRACTABLE",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "WAK3",
+    "name": "KNIFE SNAP-OFF BLADE 19MM",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "WAK3BLD",
+    "name": "BLADES FOR WAK3 SPARE 10 PACK",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "FT30",
+    "name": "FISH TAPE 30M",
+    "category": "CABLE INSTALLATION TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "H2230",
+    "name": "FISH TAPE 30M NYLON",
+    "category": "CABLE INSTALLATION TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T30RBK",
+    "name": "CABLE TIES INSULOK 148 X 3.5MM BLACK",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T30RNT",
+    "name": "CABLE TIES INSULOK 148 X 3.5MM NATURAL",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50RNT",
+    "name": "CABLE TIES INSULOK 148 X 3.5MM NATURAL",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50RBK",
+    "name": "CABLE TIES INSULOK 198 X 4.7MM BLACK",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50IBK",
+    "name": "CABLE TIES INSULOK 305 X 4.7MM BLACK",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50INT",
+    "name": "CABLE TIES INSULOK 305 X 4.7MM NATURAL",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50LBK",
+    "name": "CABLE TIES INSULOK 392 X 4.7MM BLACK",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "T50LNT",
+    "name": "CABLE TIES INSULOK 392 X 4.7MM NATURAL",
+    "category": "CABLE TIES",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ST20",
+    "name": "SPRAGUE TUBING 20MM (m)",
+    "category": "TUBING UBING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "ST25",
+    "name": "SPRAGUE TUBING 25MM (m)",
+    "category": "TUBING UBING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "V20HT3905",
+    "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M",
+    "category": "TUBING UBING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "V25HT3905",
+    "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M",
+    "category": "TUBING UBING & CONDUIT",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "DPS12P-01",
+    "name": "DOWN PANEL LIGHT SQUARE 12W",
+    "category": "PANEL ANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "C3705W-03",
+    "name": "CANDLE BULB 3000K E14",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "C3705P-03",
+    "name": "CANDLE BULB 6000K E27",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "WAK1",
+    "name": "KNIFE & STRIPPER UTILITY RETRACTABLE",
+    "category": "CUTTING TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "45120",
+    "name": "WIRE STRIPPER 10-18 AWG SOLID",
+    "category": "WIRE TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "45121",
+    "name": "WIRE STRIPPER T6 0.25-1.5MM",
+    "category": "WIRE TOOLS",
+    "brand": "HELLERMANN TYTON"
+  },
+  {
+    "code": "TBL20P-01",
+    "name": "T-BULB E27 6000K 20W",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "DPS-06P",
+    "name": "DOWN PANEL LIGHT SQUARE 6W",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "A6005P-01",
+    "name": "A60 BULB E27",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "DL410W-02",
+    "name": "DOWN LIGHT 10W",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "DPS18P-01",
+    "name": "DOWN PANEL LIGHT SQUARE 18W",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "M1605W-02",
+    "name": "MR16 5W BULB",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "TU817P-03",
+    "name": "T8 4FIT TUBES LED",
+    "category": "TUBE LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "TU809P-03",
+    "name": "T8 2FIT TUBES LED 9WATTS",
+    "category": "TUBE LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "TU508P-03",
+    "name": "T5 LED TUBE AND FITTING 2FIT",
+    "category": "TUBE LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "TU516P-03",
+    "name": "T5 LED TUBE AND FITTING 4FIT",
+    "category": "TUBE LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "PLE36P-02",
+    "name": "PANEL LIGHT 600X600 LED 36 WATTS",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "CEL09P-01",
+    "name": "CEILING LIGHT 9W",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "STL60P-03",
+    "name": "STREET LIGHT 60W",
+    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "PLLEOP-01",
+    "name": "PROJECT LIGHT 150W LED",
+    "category": "OUTDOOR OUTDOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "CMR30P-01",
+    "name": "30W LED LIGHT",
+    "category": "OUTDOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "CLL03D-01",
+    "name": "150W FLOOD LIGHT LED",
+    "category": "OUTDOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "P3012P-01",
+    "name": "STREET LIGHT 120W",
+    "category": "OUTDOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "CMR30P-01",
+    "name": "80W STREET LIGHT 5700K (BLUE ONES)",
+    "category": "OUTDOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "UWL06P-01",
+    "name": "6W UNDER WATER LAMP 12V DC",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "UWL06D-01",
+    "name": "6W UNDER WATER LAMP 12V DC 5700K",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "UWL12D-01",
+    "name": "12W UNDER WATER LAMP 12V DC",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "UGL07P-01",
+    "name": "UNDER GROUND LAMP 7W DC 24V",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "UGL12P-01",
+    "name": "UNDER GROUND LAMP 12W DC 24V",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "STL120P/03",
+    "name": "UNDERWATER LIGHTS",
+    "category": "SPECIALTY LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SSL40P-13",
+    "name": "40W SOLAR STREET LIGHT WITH PANEL PANEL & BATTERY",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "DL40W-01",
+    "name": "ROUND SOLAR STREET LIGHT",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "30W LIGHT",
+    "name": "20W SOLAR PANELS",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SOLAR STREET LIGHT 100W",
+    "name": "SOLAR STREET LIGHT 100W",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "30W INTERGRATED SOLAR STREET LIGHT",
+    "name": "30W INTEGRATED SOLAR STREET LIGHT",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH1G1W-09",
+    "name": "1 GANG 1 WAY SWITCH",
+    "category": "SWITCHES ES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH1G2W-09",
+    "name": "1 GANG 2 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH2G1W-09",
+    "name": "2 GANG 1 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH2G2W-09",
+    "name": "2 GANG 2 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH3G1W-09",
+    "name": "3 GANG 1 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH3G2W-09",
+    "name": "3 GANG 2 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH4G1W-09",
+    "name": "4 GANG 1 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWH4G2W-09",
+    "name": "4 GANG 2 WAY SWITCH",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SWHDPL-09",
+    "name": "20A GEYSER SWITCH",
+    "category": "SWITCHES SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SSL40P-13",
+    "name": "40W SOLAR STREET LIGHT WITH PANEL & BATTERY",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SOK13S-09",
+    "name": "13A SINGLE SOCKET",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SOK15S-09",
+    "name": "15A SINGLE SOCKET",
+    "category": "SWITCHES & SOCKETS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "HBLAOP-04",
+    "name": "100W HIGHBAY FITTING LED (MOTOR (MOTOR & COVER)",
+    "category": "HIGHBAY BAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "HBLAOP-04",
+    "name": "100W HIGHBAY FITTING LED (MOTORS)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "HBLFOP-04",
+    "name": "100W HIGHBAY FITTING LED (COVERS)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "HBLKOP-04",
+    "name": "150W HIGHBAY FITTING LED (MOTORS)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "HBLKOP-04",
+    "name": "200W HIGHBAY FITTING LED (MOTORS)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "PLLFOP-02",
+    "name": "200W HIGHBAY FITTING LED (COVERS)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "P1220W-01",
+    "name": "20W POWER SUPPLY/DRIVER",
+    "category": "ACCESSORIES & DRIVERS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "PAR30 OPAL STAR 12W 6000K BULB",
+    "name": "PAR30 OPAL STAR BULB",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "10W 3000K",
+    "name": "10W 3000K LIGHT",
+    "category": "BULBS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "30W CEILING LIGHT",
+    "name": "30W CEILING LIGHT",
+    "category": "PANEL & DOWN LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "STL120P-03",
+    "name": "INTEGRATED SOLAR STREET LIGHT 120W",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "SSL60P-13",
+    "name": "60W SOLAR STREET LIGHT WITH PANEL & BATTERY",
+    "category": "SOLAR LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "FL6030P-01",
+    "name": "FLOOD LIGHT 30W LED 6000K",
+    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "FL6050P-01",
+    "name": "FLOOD LIGHT 50W LED 6000K",
+    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "FL6100P-01",
+    "name": "FLOOD LIGHT 100W LED 6000K",
+    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "FL6200P-01",
+    "name": "FLOOD LIGHT 200W LED 6000K",
+    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "LS2835-60",
+    "name": "LED STRIP LIGHT 2835 6OLED/M 5M ROLL",
+    "category": "ACCESSORIES & DRIVERS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "P1260W-01",
+    "name": "60W POWER SUPPLY/DRIVER 12V DC",
+    "category": "ACCESSORIES & DRIVERS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "RIIO SUN-II",
+    "name": "TBB RIIO SUN-II 5KVA ALL-IN-ONE INVERTER",
+    "category": "INVERTERS",
+    "brand": "TBB"
+  },
+  {
+    "code": "RIIO SUN-II 8KVA",
+    "name": "TBB RIIO SUN-II 8KVA PRO INVERTER",
+    "category": "INVERTERS",
+    "brand": "TBB"
+  },
+  {
+    "code": "SUNPAL 5KW",
+    "name": "SUNPAL 5KW ALL-IN-ONE INVERTER",
+    "category": "INVERTERS",
+    "brand": "SUNPAL"
+  },
+  {
+    "code": "CH4.0S",
+    "name": "ENERGIER APOLLO ALL-IN-ONE INVERTER",
+    "category": "INVERTERS",
+    "brand": "TBB"
+  },
+  {
+    "code": "DEYE 5KW",
+    "name": "DEYE 5KW INVERTER SINGLE PHASE",
+    "category": "INVERTERS",
+    "brand": "DEYE"
+  },
+  {
+    "code": "DEYE 8KW",
+    "name": "DEYE 8KW INVERTER SINGLE PHASE",
+    "category": "INVERTERS",
+    "brand": "DEYE"
+  },
+  {
+    "code": "DEYE 12KW",
+    "name": "DEYE 12KW INVERTER SINGLE PHASE",
+    "category": "INVERTERS",
+    "brand": "DEYE"
+  },
+  {
+    "code": "DEYE 12KW 3PH",
+    "name": "DEYE 12KW INVERTER THREE PHASE",
+    "category": "INVERTERS",
+    "brand": "DEYE"
+  },
+  {
+    "code": "DEYE 50KW",
+    "name": "DEYE 50KW 3PHASE HV INVERTER",
+    "category": "INVERTERS",
+    "brand": "DEYE"
+  },
+  {
+    "code": "SUNSYNK 50KW",
+    "name": "SUNSYNK 50KW INVERTER",
+    "category": "INVERTERS",
+    "brand": "SUNSYNK"
+  },
+  {
+    "code": "GS105",
+    "name": "TBB GS105 48V 212Ah LITHIUM BATTERY",
+    "category": "BATTERIES",
+    "brand": "TBB"
+  },
+  {
+    "code": "DL5.OC PRO",
+    "name": "DYNESS DL5.OC PRO LITHIUM BATTERY",
+    "category": "BATTERIES",
+    "brand": "DYNESS"
+  },
+  {
+    "code": "12.8V 100AH",
+    "name": "12.8V 100 AH LITHIUM BATTERY",
+    "category": "BATTERIES",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "12.8V 200AH",
+    "name": "12.8V 200AH LITHIUM BATTERY",
+    "category": "BATTERIES",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "615W BI-FACIAL",
+    "name": "615W BI-FACIAL TRINASOLAR PANEL",
+    "category": "SOLAR PANELS",
+    "brand": "TRINASOLAR"
+  },
+  {
+    "code": "0.75KW PUMP",
+    "name": "0.75KW SINGLE PHASE SOLAR PUMP INVERTER",
+    "category": "PUMP INVERTERS",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "1.5KW PUMP",
+    "name": "1.5KW SINGLE PHASE SOLAR PUMP INVERTER",
+    "category": "PUMP INVERTERS",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "HBLAOP-04",
+    "name": "100W HIGHBAY FITTING LED (MOTOR & COVER)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "LS2835-60",
+    "name": "LED STRIP LIGHT 2835 60LED/M 5M ROLL",
+    "category": "ACCESSORIES & DRIVERS",
+    "brand": "IFLUX"
+  },
+  {
+    "code": "DL5.0C PRO",
+    "name": "DYNESS DL5.0C PRO LITHIUM BATTERY",
+    "category": "BATTERIES",
+    "brand": "DYNESS"
+  },
+  {
+    "code": "2.2KW PUMP",
+    "name": "2.2KW SINGLE PHASE SOLAR PUMP INVERTER",
+    "category": "PUMP INVERTERS",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "PV6MM",
+    "name": "PV CABLE 6MM",
+    "category": "DC CABLE",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "MC4",
+    "name": "MC4 CONNECTOR",
+    "category": "DC CABLE",
+    "brand": "GREEN ENERGY"
+  },
+  {
+    "code": "SL7N-63",
+    "name": "DC MCB 2P 63A 550V",
+    "category": "SUNTREE DC PRODUCTS",
+    "brand": "SUNTREE"
+  },
+  {
+    "code": "SRF-30",
+    "name": "FUSE LINK SRF-30 30A 1000V",
+    "category": "SUNTREE DC PRODUCTS",
+    "brand": "SUNTREE"
+  },
+  {
+    "code": "COMB4-1",
+    "name": "4 IN 1 OUT COMBINER BOX",
+    "category": "SUNTREE DC PRODUCTS",
+    "brand": "SUNTREE"
+  },
+  {
+    "code": "COMB8-2",
+    "name": "8 IN 2 OUT COMBINER BOX",
+    "category": "SUNTREE DC PRODUCTS",
+    "brand": "SUNTREE"
+  }
+]

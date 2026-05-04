@@ -26,7 +26,6 @@ const services = [
 const stats = [
   { value: "10+", label: "Years of expertise" },
   { value: "500+", label: "Projects delivered" },
-  { value: "9", label: "Provinces served" },
   { value: "24/7", label: "Support available" },
 ];
 

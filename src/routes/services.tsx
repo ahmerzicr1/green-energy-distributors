@@ -1,12 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import { Sun, PencilRuler, Lightbulb, LampDesk, Zap, ShoppingBag, BookOpen, ArrowRight } from "lucide-react";
+import { Sun, PencilRuler, Lightbulb, Zap, ShoppingBag, BookOpen, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services — Green Energy Distributors Ltd" },
-      { name: "description", content: "Solar installation, system design, LED flood and street lighting, electrical contracting, equipment sales and energy consultancy across Zambia." },
+      { name: "description", content: "Solar installation, system design, lighting, electrical contracting, equipment sales and energy consultancy across Zambia." },
       { property: "og:title", content: "Our Services — Green Energy Distributors Ltd" },
       { property: "og:description", content: "Comprehensive solar, LED and electrical services for Zambian businesses." },
     ],
@@ -17,8 +17,7 @@ export const Route = createFileRoute("/services")({
 const services = [
   { icon: Sun, title: "Solar Panel Installation", desc: "Professional installation of rooftop and ground-mount solar arrays for homes, businesses and farms — built to withstand Zambia's climate." },
   { icon: PencilRuler, title: "Solar System Design", desc: "Custom system sizing, load analysis and engineering plans tailored to your usage patterns and budget." },
-  { icon: Lightbulb, title: "LED Flood Lighting", desc: "Heavy-duty IP66 flood lights for warehouses, sports grounds, security perimeters and industrial yards." },
-  { icon: LampDesk, title: "LED Street Lighting", desc: "Energy-efficient street and road lighting for estates, councils and private developments." },
+  { icon: Lightbulb, title: "Lighting", desc: "Heavy-duty IP66 lighting for warehouses, sports grounds, security perimeters and industrial yards." },
   { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects." },
   { icon: ShoppingBag, title: "Solar Equipment Sales", desc: "Tier-1 panels, inverters, batteries, mounting kits and accessories sold at competitive trade pricing." },
   { icon: BookOpen, title: "Energy Consultancy", desc: "Independent advice on energy audits, efficiency upgrades and ROI modelling for clean-energy investments." },

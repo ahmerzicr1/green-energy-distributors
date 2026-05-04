@@ -902,13 +902,13 @@
   {
     "code": "V20HT3905",
     "name": "CONVOLUTED TUBING HIGH IMPACT 20MM 50M",
-    "category": "TUBING ING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "V25HT3905",
     "name": "CONVOLUTED TUBING HIGH IMPACT 25MM 50M",
-    "category": "TUBING ING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
@@ -1568,79 +1568,79 @@
   {
     "code": "T45200",
     "name": "VOLT TEST/SCREWDRIVER 100MM",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "T45000",
     "name": "VOLT TEST/SCREWDRIVER 65MM",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INS1565",
     "name": "SCREWDRIVER INSULATED 255X150",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INS1255",
     "name": "SCREWDRIVER INSULATED 220X125",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INSP2",
     "name": "SCREWDRIVER INSULATED PHILIPS NO 2",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INS1040",
     "name": "SCREWDRIVER INSULATED 180X100",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INSP1",
     "name": "SCREWDRIVER INSULATED PHILIPS NO 1",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "INS7525",
     "name": "SCREWDRIVER INSULATED 150X75",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ECO6150E",
     "name": "SCREWDRIVER INSULATED 1000V FLAT 6.5X150X1.2",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ECO5125E",
     "name": "SCREWDRIVER INSULATED 1000V FLAT 5.5X125X1.0",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ECOPV1",
     "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH1X100",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ECO4100",
     "name": "SCREWDRIVER INSULATED 1000V FLAT 4.0X100X0.8",
-    "category": "SCREWDRIVERS IVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ECOPV0",
     "name": "SCREWDRIVER INSULATED PHILIPS 1000V PH0X75",
-    "category": "SCREWDRIVERS DRIVERS & TESTERS",
+    "category": "SCREWDRIVERS & TESTERS",
     "brand": "HELLERMANN TYTON"
   },
   {
@@ -1700,61 +1700,61 @@
   {
     "code": "CP20",
     "name": "CHASSIS PUNCH 20MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "CP25",
     "name": "CHASSIS PUNCH 25MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "CP32",
     "name": "CHASSIS PUNCH 32MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "CP40",
     "name": "CHASSIS PUNCH 40MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "CP50",
     "name": "CHASSIS PUNCH 50MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "HS20",
     "name": "HOLE SAW CUTTER 20MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "HS25",
     "name": "HOLE SAW CUTTER 25MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "HS32",
     "name": "HOLE SAW CUTTER 32MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "HS40",
     "name": "HOLE SAW CUTTER 40MM",
-    "category": "PUNCH >PUNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "HS75",
     "name": "HOLE SAW CUTTER 75MM",
-    "category": "PUNCH UNCH & DRILL TOOLS",
+    "category": "PUNCH & DRILL TOOLS",
     "brand": "HELLERMANN TYTON"
   },
   {
@@ -1868,31 +1868,31 @@
   {
     "code": "ST20",
     "name": "SPRAGUE TUBING 20MM (m)",
-    "category": "TUBING UBING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "ST25",
     "name": "SPRAGUE TUBING 25MM (m)",
-    "category": "TUBING UBING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "V20HT3905",
     "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M",
-    "category": "TUBING UBING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "V25HT3905",
     "name": "CONVOLUTED TUBING HIGH IMPACT GREY 50M",
-    "category": "TUBING UBING & CONDUIT",
+    "category": "TUBING & CONDUIT",
     "brand": "HELLERMANN TYTON"
   },
   {
     "code": "DPS12P-01",
     "name": "DOWN PANEL LIGHT SQUARE 12W",
-    "category": "PANEL ANEL & DOWN LIGHTS",
+    "category": "PANEL & DOWN LIGHTS",
     "brand": "IFLUX"
   },
   {
@@ -2000,13 +2000,13 @@
   {
     "code": "STL60P-03",
     "name": "STREET LIGHT 60W",
-    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {
     "code": "PLLEOP-01",
     "name": "PROJECT LIGHT 150W LED",
-    "category": "OUTDOOR OUTDOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {
@@ -2102,7 +2102,7 @@
   {
     "code": "SWH1G1W-09",
     "name": "1 GANG 1 WAY SWITCH",
-    "category": "SWITCHES ES & SOCKETS",
+    "category": "SWITCHES & SOCKETS",
     "brand": "IFLUX"
   },
   {
@@ -2150,7 +2150,7 @@
   {
     "code": "SWHDPL-09",
     "name": "20A GEYSER SWITCH",
-    "category": "SWITCHES SWITCHES & SOCKETS",
+    "category": "SWITCHES & SOCKETS",
     "brand": "IFLUX"
   },
   {
@@ -2173,8 +2173,8 @@
   },
   {
     "code": "HBLAOP-04",
-    "name": "100W HIGHBAY FITTING LED (MOTOR (MOTOR & COVER)",
-    "category": "HIGHBAY BAY & INDUSTRIAL LIGHTING",
+    "name": "100W HIGHBAY FITTING LED (MOTOR & COVER)",
+    "category": "HIGHBAY & INDUSTRIAL LIGHTING",
     "brand": "IFLUX"
   },
   {
@@ -2246,25 +2246,25 @@
   {
     "code": "FL6030P-01",
     "name": "FLOOD LIGHT 30W LED 6000K",
-    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {
     "code": "FL6050P-01",
     "name": "FLOOD LIGHT 50W LED 6000K",
-    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {
     "code": "FL6100P-01",
     "name": "FLOOD LIGHT 100W LED 6000K",
-    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {
     "code": "FL6200P-01",
     "name": "FLOOD LIGHT 200W LED 6000K",
-    "category": "OUTDOOR DOOR & STREET LIGHTS",
+    "category": "OUTDOOR & STREET LIGHTS",
     "brand": "IFLUX"
   },
   {

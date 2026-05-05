@@ -114,9 +114,12 @@ function ProductsPage() {
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return products;
+    // Normalized query for code matching: strip spaces, underscores, dashes, dots
+    const qNorm = q.replace(/[\s_.\-]+/g, "");
     return products.filter(
       (p) =>
         p.code.toLowerCase().includes(q) ||
+        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm) ||
         p.name.toLowerCase().includes(q) ||
         p.brand.toLowerCase().includes(q) ||
         p.category.toLowerCase().includes(q),

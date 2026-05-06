@@ -19,10 +19,12 @@ export const getProducts = createServerFn({ method: "GET" }).handler(
     if (!url || !key) {
       return { products: [], error: "Supabase credentials are not configured." };
     }
+    // Strip trailing slash and any accidental /rest/v1 suffix on the URL secret.
+    const base = url.replace(/\/+$/, "").replace(/\/rest\/v1$/i, "");
     try {
       const table = encodeURIComponent("Green Energy Distributors");
       const res = await fetch(
-        `${url.replace(/\/$/, "")}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
+        `${base}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
         {
           headers: {
             apikey: key,

@@ -1,0 +1,41 @@
+import { createServerFn } from "@tanstack/react-start";
+
+export type RemoteProduct = {
+  product_code: string;
+  name: string;
+  category: string;
+  brand: string;
+  image_url: string | null;
+};
+
+export const getProducts = createServerFn({ method: "GET" }).handler(
+  async (): Promise<{ products: RemoteProduct[]; error: string | null }> => {
+    const url = process.env.SUPABASE_URL;
+    const key = process.env.SUPABASE_ANON_KEY;
+    if (!url || !key) {
+      return { products: [], error: "Supabase credentials are not configured." };
+    }
+    try {
+      const table = encodeURIComponent("Green Energy Distributors");
+      const res = await fetch(
+        `${url}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
+        {
+          headers: {
+            apikey: key,
+            Authorization: `Bearer ${key}`,
+          },
+        },
+      );
+      if (!res.ok) {
+        const text = await res.text();
+        console.error("Supabase fetch failed:", res.status, text);
+        return { products: [], error: `Failed to load products (${res.status})` };
+      }
+      const data = (await res.json()) as RemoteProduct[];
+      return { products: data, error: null };
+    } catch (e) {
+      console.error("Supabase fetch error:", e);
+      return { products: [], error: "Could not reach the products service." };
+    }
+  },
+);

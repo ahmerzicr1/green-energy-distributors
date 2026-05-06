@@ -11,30 +11,15 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import logo from "@/assets/logo.png";
-import productsData from "@/data/products.json";
+import { getProducts, type RemoteProduct } from "@/server/products.functions";
 
-type Product = { code: string; name: string; category: string; brand: string };
-const products = productsData as Product[];
-
-// Auto-import any image in src/assets/products keyed by filename (no extension)
-const imageModules = import.meta.glob("@/assets/products/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}", {
-  eager: true,
-  query: "?url",
-  import: "default",
-}) as Record<string, string>;
-
-const imageMap: Record<string, string> = {};
-for (const [path, url] of Object.entries(imageModules)) {
-  const file = path.split("/").pop() ?? "";
-  const stem = file.replace(/\.[^.]+$/, "");
-  imageMap[stem.toLowerCase()] = url;
-  imageMap[stem.toLowerCase().replace(/[\s_-]+/g, "")] = url;
-}
-
-function lookupImage(code: string): string | undefined {
-  const k = code.toLowerCase();
-  return imageMap[k] ?? imageMap[k.replace(/[\s_-]+/g, "")];
-}
+type Product = {
+  code: string;
+  name: string;
+  category: string;
+  brand: string;
+  image: string | null;
+};
 
 const GENERAL_BRANDS = new Set([
   "TBB",
@@ -76,16 +61,16 @@ export const Route = createFileRoute("/products")({
       },
     ],
   }),
+  loader: () => getProducts(),
   component: ProductsPage,
 });
 
-function ProductImage({ code, small }: { code: string; small?: boolean }) {
-  const src = lookupImage(code);
+function ProductImage({ src, small }: { src: string | null; small?: boolean }) {
   if (src) {
     return (
       <img
         src={src}
-        alt={code}
+        alt=""
         loading="lazy"
         className="h-full w-full object-cover"
       />
@@ -108,23 +93,35 @@ function ProductImage({ code, small }: { code: string; small?: boolean }) {
 }
 
 function ProductsPage() {
+  const { products: remote, error } = Route.useLoaderData() as {
+    products: RemoteProduct[];
+    error: string | null;
+  };
+  const products: Product[] = useMemo(
+    () =>
+      remote.map((p) => ({
+        code: p.product_code ?? "",
+        name: p.name ?? "",
+        category: p.category ?? "",
+        brand: p.brand ?? "",
+        image: p.image_url ?? null,
+      })),
+    [remote],
+  );
   const [query, setQuery] = useState("");
   const [active, setActive] = useState<Product | null>(null);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return products;
-    // Normalized query for code matching: strip spaces, underscores, dashes, dots
     const qNorm = q.replace(/[\s_.\-]+/g, "");
     return products.filter(
       (p) =>
-        p.code.toLowerCase().includes(q) ||
-        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm) ||
         p.name.toLowerCase().includes(q) ||
-        p.brand.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q),
+        p.code.toLowerCase().includes(q) ||
+        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm),
     );
-  }, [query]);
+  }, [query, products]);
 
   const groups = useMemo(() => {
     const m = new Map<string, Product[]>();
@@ -160,15 +157,14 @@ function ProductsPage() {
             Solar, Electrical & Lighting
           </h1>
           <p className="mt-4 text-sm md:text-lg text-white/80 max-w-2xl">
-            Browse our full B2B range. Search by name, code, brand or category
-            (e.g. "63A", "KB25_WE", "iFlux", "BATTERIES").
+            Browse our full B2B range. Search by product name or product code.
           </p>
           <div className="mt-6 relative max-w-2xl">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
             <Input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search products…"
+              placeholder="Search by name or product code…"
               className="pl-11 pr-10 h-12 text-base bg-white text-foreground border-0"
             />
             {query && (
@@ -188,9 +184,17 @@ function ProductsPage() {
       </section>
 
       <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
-        {groups.length === 0 ? (
+        {error ? (
+          <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-center text-sm text-destructive">
+            {error}
+          </div>
+        ) : groups.length === 0 ? (
           <div className="rounded-xl border border-dashed border-border p-12 text-center">
-            <p className="text-muted-foreground">No products match your search.</p>
+            <p className="text-muted-foreground">
+              {products.length === 0
+                ? "No products available yet."
+                : "No products match your search."}
+            </p>
             <Button variant="outline" size="sm" className="mt-4" onClick={() => setQuery("")}>
               Reset
             </Button>
@@ -228,7 +232,7 @@ function ProductsPage() {
                       style={{ boxShadow: "var(--shadow-card)" }}
                     >
                       <div className="aspect-square">
-                        <ProductImage code={p.code} small />
+                        <ProductImage src={p.image} small />
                       </div>
                       <div className="p-3">
                         <div className="text-[10px] font-semibold uppercase tracking-wider text-primary truncate">
@@ -260,7 +264,7 @@ function ProductsPage() {
           {active && (
             <>
               <div className="aspect-[4/3] w-full bg-muted">
-                <ProductImage code={active.code} />
+                <ProductImage src={active.image} />
               </div>
               <div className="p-6">
                 <DialogHeader>

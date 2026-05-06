@@ -4,6 +4,13 @@ import { Search, X, ImageOff } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   Dialog,
   DialogContent,
   DialogHeader,
@@ -19,6 +26,7 @@ type Product = {
   category: string;
   brand: string;
   image: string | null;
+  inStock: boolean | null;
 };
 
 const GENERAL_BRANDS = new Set([
@@ -105,23 +113,33 @@ function ProductsPage() {
         category: p.category ?? "",
         brand: p.brand ?? "",
         image: p.image_url ?? null,
+        inStock: p.in_stock ?? null,
       })),
     [remote],
   );
   const [query, setQuery] = useState("");
+  const [category, setCategory] = useState<string>("all");
   const [active, setActive] = useState<Product | null>(null);
+
+  const categories = useMemo(() => {
+    const set = new Set<string>();
+    for (const p of products) if (p.category) set.add(p.category);
+    return [...set].sort((a, b) => a.localeCompare(b));
+  }, [products]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return products;
     const qNorm = q.replace(/[\s_.\-]+/g, "");
-    return products.filter(
-      (p) =>
+    return products.filter((p) => {
+      if (category !== "all" && p.category !== category) return false;
+      if (!q) return true;
+      return (
         p.name.toLowerCase().includes(q) ||
         p.code.toLowerCase().includes(q) ||
-        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm),
-    );
-  }, [query, products]);
+        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm)
+      );
+    });
+  }, [query, category, products]);
 
   const groups = useMemo(() => {
     const m = new Map<string, Product[]>();
@@ -159,23 +177,38 @@ function ProductsPage() {
           <p className="mt-4 text-sm md:text-lg text-white/80 max-w-2xl">
             Browse our full B2B range. Search by product name or product code.
           </p>
-          <div className="mt-6 relative max-w-2xl">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-            <Input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search by name or product code…"
-              className="pl-11 pr-10 h-12 text-base bg-white text-foreground border-0"
-            />
-            {query && (
-              <button
-                onClick={() => setQuery("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
-                aria-label="Clear search"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            )}
+          <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-3xl">
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+              <Input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search by name or product code…"
+                className="pl-11 pr-10 h-12 text-base bg-white text-foreground border-0"
+              />
+              {query && (
+                <button
+                  onClick={() => setQuery("")}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                  aria-label="Clear search"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              )}
+            </div>
+            <Select value={category} onValueChange={setCategory}>
+              <SelectTrigger className="h-12 sm:w-64 bg-white text-foreground border-0">
+                <SelectValue placeholder="All categories" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">All categories</SelectItem>
+                {categories.map((c) => (
+                  <SelectItem key={c} value={c}>
+                    {c}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
           <p className="mt-3 text-xs text-white/70">
             Showing <span className="font-semibold text-white">{filtered.length}</span> of {products.length} products

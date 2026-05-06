@@ -6,6 +6,7 @@ export type RemoteProduct = {
   category: string;
   brand: string;
   image_url: string | null;
+  in_stock: boolean | null;
 };
 
 export const getProducts = createServerFn({ method: "GET" }).handler(
@@ -24,7 +25,7 @@ export const getProducts = createServerFn({ method: "GET" }).handler(
     try {
       const table = encodeURIComponent("Green Energy Distributors");
       const res = await fetch(
-        `${base}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
+        `${base}/rest/v1/products?select=product_code,name,category,brand,image_url,in_stock`,
         {
           headers: {
             apikey: key,

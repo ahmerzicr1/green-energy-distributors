@@ -10,15 +10,19 @@ export type RemoteProduct = {
 
 export const getProducts = createServerFn({ method: "GET" }).handler(
   async (): Promise<{ products: RemoteProduct[]; error: string | null }> => {
-    const url = process.env.SUPABASE_URL;
-    const key = process.env.SUPABASE_ANON_KEY;
+    const a = process.env.SUPABASE_URL;
+    const b = process.env.SUPABASE_ANON_KEY;
+    // Some projects have URL/key swapped — detect which is which.
+    const isUrl = (v?: string) => !!v && /^https?:\/\//i.test(v);
+    const url = isUrl(a) ? a : isUrl(b) ? b : undefined;
+    const key = !isUrl(a) ? a : !isUrl(b) ? b : undefined;
     if (!url || !key) {
       return { products: [], error: "Supabase credentials are not configured." };
     }
     try {
       const table = encodeURIComponent("Green Energy Distributors");
       const res = await fetch(
-        `${url}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
+        `${url.replace(/\/$/, "")}/rest/v1/${table}?select=product_code,name,category,brand,image_url`,
         {
           headers: {
             apikey: key,

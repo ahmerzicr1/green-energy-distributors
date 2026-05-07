@@ -69,7 +69,7 @@ export const Route = createFileRoute("/products")({
       },
     ],
   }),
-  loader: () => getProducts(),
+  loader: () => ({ products: [] as RemoteProduct[], error: null as string | null }),
   component: ProductsPage,
 });
 

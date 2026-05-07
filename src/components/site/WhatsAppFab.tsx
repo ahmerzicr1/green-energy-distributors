@@ -1,10 +1,26 @@
 const WHATSAPP = "260971131150";
-const MSG = "Hello%20Green%20Energy%20Distributors%2C%20I%27d%20like%20to%20enquire%20about%20your%20services.";
+const MSG = encodeURIComponent("Hello Green Energy Distributors, I'd like to enquire about your services.");
+const WA_URL = `https://wa.me/${WHATSAPP}?text=${MSG}`;
+
+function openWhatsApp(e: React.MouseEvent) {
+  e.preventDefault();
+  try {
+    const win = window.open(WA_URL, "_blank", "noopener,noreferrer");
+    if (!win) {
+      // Fallback for sandboxed iframes / popup blockers
+      if (window.top) window.top.location.href = WA_URL;
+      else window.location.href = WA_URL;
+    }
+  } catch {
+    window.location.href = WA_URL;
+  }
+}
 
 export function WhatsAppFab() {
   return (
     <a
-      href={`https://wa.me/${WHATSAPP}?text=${MSG}`}
+      href={WA_URL}
+      onClick={openWhatsApp}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"

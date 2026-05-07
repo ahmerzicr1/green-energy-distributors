@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Us — Green Energy Distributors Ltd" },
-      { name: "description", content: "Contact Green Energy Distributors Ltd in Lusaka. Phone +260 971 131 150, WhatsApp, or visit Plot 6547 Mumana Road, Olympia, Lusaka." },
+      { name: "description", content: "Contact Green Energy Distributors Ltd in Lusaka. Phone +260 971 131 150, WhatsApp, or visit Plot 6547, Mansana Road, Lusaka." },
       { property: "og:title", content: "Contact — Green Energy Distributors Ltd" },
       { property: "og:description", content: "Get in touch for solar, LED and electrical quotes anywhere in Zambia." },
     ],
@@ -28,7 +28,7 @@ function ContactPage() {
       <section className="container mx-auto px-4 md:px-6 py-12 md:py-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <ContactCard icon={Phone} label="Phone" value="+260 971 131 150" href="tel:+260971131150" />
         <ContactCard icon={MessageCircle} label="WhatsApp" value="+260 971 131 150" href="https://wa.me/260971131150" external />
-        <ContactCard icon={MapPin} label="Address" value="Plot 6547 Mumana Road, Olympia, Lusaka, Zambia" href="https://maps.app.goo.gl/jBXikxJdFUBVA1nb8" external />
+        <ContactCard icon={MapPin} label="Address" value="Plot 6547, Mansana Road, Lusaka, Zambia" href="https://maps.app.goo.gl/jBXikxJdFUBVA1nb8" external />
         <div className="rounded-xl border border-border bg-card p-6" style={{ boxShadow: "var(--shadow-card)" }}>
           <div className="flex items-center gap-3 text-primary"><Clock className="h-5 w-5" /><div className="text-sm font-semibold uppercase tracking-wider">Opening Hours</div></div>
           <ul className="mt-3 space-y-1.5 text-sm text-foreground">
@@ -43,7 +43,7 @@ function ContactPage() {
       <section className="border-t border-border">
         <iframe
           title="Our location"
-          src="https://www.google.com/maps?q=Plot+6547+Mumana+Road,+Olympia,+Lusaka,+Zambia&output=embed"
+          src="https://www.google.com/maps?q=Plot+6547,+Mansana+Road,+Lusaka,+Zambia&output=embed"
           width="100%"
           height="420"
           loading="lazy"

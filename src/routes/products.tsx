@@ -18,7 +18,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import logo from "@/assets/logo.png";
-import { getProducts, type RemoteProduct } from "@/server/products.functions";
+import { type RemoteProduct } from "@/server/products.functions";
 
 type Product = {
   code: string;
@@ -69,7 +69,7 @@ export const Route = createFileRoute("/products")({
       },
     ],
   }),
-  loader: () => getProducts(),
+  loader: () => ({ products: [] as RemoteProduct[], error: null as string | null }),
   component: ProductsPage,
 });
 

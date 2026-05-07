@@ -1,99 +1,53 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Search, X, ImageOff } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
-} from "@/components/ui/dialog";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import logo from "@/assets/logo.png";
-import { type RemoteProduct } from "@/server/products.functions";
+import { supabase } from "@/integrations/supabase/client";
+
+const IMAGE_BASE = "https://fwjjdouliodjkyriggxl.supabase.co/storage/v1/object/public/Image/";
+const WHATSAPP = "260971131150";
 
 type Product = {
+  id: number;
   code: string;
   name: string;
   category: string;
   brand: string;
-  image: string | null;
-  inStock: boolean | null;
+  imageUrl: string | null;
 };
-
-const GENERAL_BRANDS = new Set([
-  "TBB",
-  "DYNESS",
-  "GREEN ENERGY",
-  "TRINASOLAR",
-  "SUNTREE",
-  "SUNPAL",
-  "DEYE",
-  "SUNSYNK",
-]);
-
-const GENERAL = "General";
-
-function groupKey(p: Product) {
-  if (GENERAL_BRANDS.has(p.brand.toUpperCase())) return GENERAL;
-  return `${p.brand} — ${p.category}`;
-}
-
-// Order: General first, then Schneider, HellermannTyton, iFlux
-const BRAND_ORDER = ["Schneider Electric", "HellermannTyton", "iFlux"];
-
-function groupRank(group: string) {
-  if (group === GENERAL) return -1;
-  for (let i = 0; i < BRAND_ORDER.length; i++) {
-    if (group.startsWith(BRAND_ORDER[i])) return i;
-  }
-  return 999;
-}
 
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
       { title: "Product Catalog — Green Energy Distributors Ltd" },
-      {
-        name: "description",
-        content:
-          "Browse our full B2B catalog of solar inverters, batteries, panels, Schneider electrical, HellermannTyton tools and iFlux LED lighting.",
-      },
+      { name: "description", content: "Browse our full B2B catalog of solar inverters, batteries, panels, electrical and lighting products." },
     ],
   }),
-  loader: () => ({ products: [] as RemoteProduct[], error: null as string | null }),
   component: ProductsPage,
 });
 
-function ProductImage({ src, small }: { src: string | null; small?: boolean }) {
-  if (src) {
+function ProductImage({ src }: { src: string | null }) {
+  const [errored, setErrored] = useState(false);
+  if (src && !errored) {
     return (
       <img
         src={src}
         alt=""
         loading="lazy"
-        className="h-full w-full object-cover"
+        onError={() => setErrored(true)}
+        className="h-full w-full object-contain bg-white"
       />
     );
   }
   return (
-    <div className="relative flex h-full w-full items-center justify-center bg-gradient-to-br from-muted to-muted/40 overflow-hidden">
+    <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-muted to-muted/40">
       <div className="flex flex-col items-center gap-2 opacity-70 px-2 text-center">
-        <img
-          src={logo}
-          alt=""
-          className={small ? "h-10 w-10" : "h-16 w-16 md:h-20 md:w-20"}
-        />
-        <div className="flex items-center gap-1.5 text-[9px] md:text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
-          <ImageOff className="h-3 w-3" /> Coming soon
+        <img src={logo} alt="" className="h-12 w-12" />
+        <div className="flex items-center gap-1.5 text-[9px] font-semibold uppercase tracking-widest text-muted-foreground">
+          <ImageOff className="h-3 w-3" /> No image
         </div>
       </div>
     </div>
@@ -101,81 +55,73 @@ function ProductImage({ src, small }: { src: string | null; small?: boolean }) {
 }
 
 function ProductsPage() {
-  const { products: remote, error } = Route.useLoaderData() as {
-    products: RemoteProduct[];
-    error: string | null;
-  };
-  const products: Product[] = useMemo(
-    () =>
-      remote.map((p) => ({
-        code: p.product_code ?? "",
-        name: p.name ?? "",
-        category: p.category ?? "",
-        brand: p.brand ?? "",
-        image: p.image_url ?? null,
-        inStock: p.in_stock ?? null,
-      })),
-    [remote],
-  );
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string>("all");
-  const [active, setActive] = useState<Product | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      const { data, error } = await supabase
+        .from("inventory")
+        .select('id, "Code", "Name", "Category", "Brand", "Image"')
+        .order("id", { ascending: true })
+        .limit(2000);
+      if (cancelled) return;
+      if (error) {
+        setError(error.message);
+        setLoading(false);
+        return;
+      }
+      const mapped: Product[] = (data ?? []).map((r: any) => {
+        const file = (r.Image ?? "").trim();
+        return {
+          id: r.id,
+          code: r.Code ?? "",
+          name: r.Name ?? "",
+          category: r.Category ?? "",
+          brand: r.Brand ?? "",
+          imageUrl: file ? IMAGE_BASE + encodeURIComponent(file) : null,
+        };
+      });
+      setProducts(mapped);
+      setLoading(false);
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
   const categories = useMemo(() => {
-    const set = new Set<string>();
-    for (const p of products) if (p.category) set.add(p.category);
-    return [...set].sort((a, b) => a.localeCompare(b));
+    const s = new Set<string>();
+    for (const p of products) if (p.category) s.add(p.category);
+    return [...s].sort((a, b) => a.localeCompare(b));
   }, [products]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const qNorm = q.replace(/[\s_.\-]+/g, "");
     return products.filter((p) => {
       if (category !== "all" && p.category !== category) return false;
       if (!q) return true;
-      return (
-        p.name.toLowerCase().includes(q) ||
-        p.code.toLowerCase().includes(q) ||
-        p.code.toLowerCase().replace(/[\s_.\-]+/g, "").includes(qNorm)
-      );
+      return p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q);
     });
   }, [query, category, products]);
 
-  const groups = useMemo(() => {
-    const m = new Map<string, Product[]>();
-    for (const p of filtered) {
-      const k = groupKey(p);
-      if (!m.has(k)) m.set(k, []);
-      m.get(k)!.push(p);
-    }
-    const arr = [...m.entries()];
-    arr.sort((a, b) => {
-      const ra = groupRank(a[0]);
-      const rb = groupRank(b[0]);
-      if (ra !== rb) return ra - rb;
-      return a[0].localeCompare(b[0]);
-    });
-    for (const [, list] of arr) {
-      list.sort((a, b) => a.name.localeCompare(b.name));
-    }
-    return arr;
-  }, [filtered]);
+  const quoteUrl = (p: Product) =>
+    `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
+      `Hi Green Energy Distributors, I'd like to request a quote for: ${p.name}${p.code ? ` (${p.code})` : ""}.`,
+    )}`;
 
   return (
     <>
       <section className="bg-accent text-accent-foreground">
         <div className="container mx-auto px-4 md:px-6 py-10 md:py-16">
-          <span
-            className="text-xs font-semibold uppercase tracking-widest"
-            style={{ color: "var(--primary-glow)" }}
-          >
+          <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--primary-glow)" }}>
             Product Catalog
           </span>
-          <h1 className="mt-3 text-3xl md:text-5xl font-bold">
-            Solar, Electrical & Lighting
-          </h1>
+          <h1 className="mt-3 text-3xl md:text-5xl font-bold">Solar, Electrical & Lighting</h1>
           <p className="mt-4 text-sm md:text-lg text-white/80 max-w-2xl">
-            Browse our full B2B range. Search by product name or product code.
+            Browse our full B2B range. Search by product name, code or brand.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3 max-w-3xl">
             <div className="relative flex-1">
@@ -183,7 +129,7 @@ function ProductsPage() {
               <Input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search by name or product code…"
+                placeholder="Search products…"
                 className="pl-11 pr-10 h-12 text-base bg-white text-foreground border-0"
               />
               {query && (
@@ -203,9 +149,7 @@ function ProductsPage() {
               <SelectContent>
                 <SelectItem value="all">All categories</SelectItem>
                 {categories.map((c) => (
-                  <SelectItem key={c} value={c}>
-                    {c}
-                  </SelectItem>
+                  <SelectItem key={c} value={c}>{c}</SelectItem>
                 ))}
               </SelectContent>
             </Select>
@@ -219,130 +163,45 @@ function ProductsPage() {
       <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
         {error ? (
           <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-center text-sm text-destructive">
-            {error}
+            Failed to load products: {error}
           </div>
-        ) : groups.length === 0 ? (
-          <div className="rounded-xl border border-dashed border-border p-12 text-center">
-            <p className="text-muted-foreground">
-              {products.length === 0
-                ? "No products available yet."
-                : "No products match your search."}
-            </p>
-            <Button variant="outline" size="sm" className="mt-4" onClick={() => setQuery("")}>
-              Reset
-            </Button>
+        ) : loading ? (
+          <div className="rounded-xl border border-dashed border-border p-12 text-center text-muted-foreground">
+            Loading products…
+          </div>
+        ) : filtered.length === 0 ? (
+          <div className="rounded-xl border border-dashed border-border p-12 text-center text-muted-foreground">
+            No products match your search.
           </div>
         ) : (
-          <div className="space-y-10">
-            {groups.map(([group, items]) => (
-              <section key={group} aria-label={group}>
-                <header className="sticky top-16 z-20 -mx-4 md:-mx-6 px-4 md:px-6 py-3 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b border-border">
-                  <div className="flex items-baseline justify-between gap-3">
-                    <h2 className="text-base md:text-2xl font-bold tracking-tight">
-                      {group === GENERAL ? (
-                        <>
-                          <span className="inline-block rounded-md bg-primary/10 text-primary px-2 py-0.5 text-xs md:text-sm font-bold uppercase tracking-widest mr-2 align-middle">
-                            Featured
-                          </span>
-                          General — Solar, Inverters & Batteries
-                        </>
-                      ) : (
-                        group
-                      )}
-                    </h2>
-                    <span className="text-xs md:text-sm text-muted-foreground shrink-0">
-                      {items.length} item{items.length === 1 ? "" : "s"}
-                    </span>
-                  </div>
-                </header>
-
-                <div className="grid gap-3 sm:gap-4 mt-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-                  {items.map((p) => (
-                    <button
-                      key={p.code + p.name}
-                      onClick={() => setActive(p)}
-                      className="group text-left overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-0.5 hover:border-primary/40 focus:outline-none focus:ring-2 focus:ring-primary"
-                      style={{ boxShadow: "var(--shadow-card)" }}
-                    >
-                      <div className="aspect-square">
-                        <ProductImage src={p.image} small />
-                      </div>
-                      <div className="p-3">
-                        <div className="text-[10px] font-semibold uppercase tracking-wider text-primary truncate">
-                          {p.brand}
-                        </div>
-                        <div className="mt-0.5 font-mono text-[10px] text-muted-foreground truncate">
-                          {p.code}
-                        </div>
-                        <h3 className="mt-1 text-sm font-bold text-foreground line-clamp-2 leading-snug min-h-[2.5rem]">
-                          {p.name}
-                        </h3>
-                        <div className="mt-2">
-                          <span className="inline-block rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground truncate max-w-full">
-                            {p.category}
-                          </span>
-                        </div>
-                      </div>
-                    </button>
-                  ))}
+          <div className="grid gap-4 sm:gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+            {filtered.map((p) => (
+              <article
+                key={p.id}
+                className="flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-0.5 hover:border-primary/40"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-square">
+                  <ProductImage src={p.imageUrl} />
                 </div>
-              </section>
+                <div className="flex flex-1 flex-col p-3">
+                  <div className="text-[10px] font-semibold uppercase tracking-wider text-primary truncate">
+                    {p.brand || "—"}
+                  </div>
+                  <h3 className="mt-1 text-sm font-bold text-foreground line-clamp-2 leading-snug min-h-[2.5rem]">
+                    {p.name}
+                  </h3>
+                  <Button asChild size="sm" className="mt-3 w-full">
+                    <a href={quoteUrl(p)} target="_blank" rel="noopener noreferrer">
+                      Request Quote
+                    </a>
+                  </Button>
+                </div>
+              </article>
             ))}
           </div>
         )}
       </section>
-
-      <Dialog open={!!active} onOpenChange={(o) => !o && setActive(null)}>
-        <DialogContent className="max-w-2xl p-0 overflow-hidden max-h-[90vh] overflow-y-auto">
-          {active && (
-            <>
-              <div className="aspect-[4/3] w-full bg-muted">
-                <ProductImage src={active.image} />
-              </div>
-              <div className="p-6">
-                <DialogHeader>
-                  <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-widest text-primary">
-                    <span>{active.brand}</span>
-                    <span className="text-muted-foreground">·</span>
-                    <span className="text-muted-foreground">{active.category}</span>
-                  </div>
-                  <DialogTitle className="mt-2 text-xl md:text-2xl">{active.name}</DialogTitle>
-                  <DialogDescription className="font-mono text-sm text-foreground/70">
-                    SKU / Code: {active.code}
-                  </DialogDescription>
-                </DialogHeader>
-                <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-                  Available from Green Energy Distributors Ltd. Stocked in Lusaka and supplied to
-                  retailers, contractors, hotels, manufacturers and farms across Zambia. Contact our
-                  sales team for technical specifications, bulk pricing and lead times.
-                </p>
-                <div className="mt-6 flex flex-wrap gap-3">
-                  <Button asChild>
-                    <a
-                      href={`https://wa.me/260971131150?text=${encodeURIComponent(
-                        `Hi, I'm interested in ${active.name} (${active.code}). Please send details.`,
-                      )}`}
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      Enquire on WhatsApp
-                    </a>
-                  </Button>
-                  <Button asChild variant="outline">
-                    <a
-                      href={`mailto:info@greenenergyzambia.com?subject=${encodeURIComponent(
-                        `Enquiry: ${active.code} ${active.name}`,
-                      )}`}
-                    >
-                      Email Sales
-                    </a>
-                  </Button>
-                </div>
-              </div>
-            </>
-          )}
-        </DialogContent>
-      </Dialog>
     </>
   );
 }

@@ -1,0 +1,1 @@
+ALTER TABLE public.inventory ENABLE ROW LEVEL SECURITY;

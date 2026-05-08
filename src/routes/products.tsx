@@ -117,24 +117,24 @@ function ProductsPage() {
     });
   }, [query, category, products]);
 
-  // Group filtered products: Category -> Brand -> Product[]
+  // Group filtered products: Brand -> Category -> Product[]
   const grouped = useMemo(() => {
     const map = new Map<string, Map<string, Product[]>>();
     for (const p of filtered) {
-      const cat = p.category || "Uncategorized";
       const br = p.brand || "Unbranded";
-      if (!map.has(cat)) map.set(cat, new Map());
-      const brands = map.get(cat)!;
-      if (!brands.has(br)) brands.set(br, []);
-      brands.get(br)!.push(p);
+      const cat = p.category || "Uncategorized";
+      if (!map.has(br)) map.set(br, new Map());
+      const cats = map.get(br)!;
+      if (!cats.has(cat)) cats.set(cat, []);
+      cats.get(cat)!.push(p);
     }
     return [...map.entries()]
       .sort((a, b) => a[0].localeCompare(b[0]))
-      .map(([cat, brands]) => ({
-        category: cat,
-        brands: [...brands.entries()]
+      .map(([brand, cats]) => ({
+        brand,
+        categories: [...cats.entries()]
           .sort((a, b) => a[0].localeCompare(b[0]))
-          .map(([brand, items]) => ({ brand, items })),
+          .map(([category, items]) => ({ category, items })),
       }));
   }, [filtered]);
 
@@ -201,17 +201,17 @@ function ProductsPage() {
           </div>
         ) : (
           <div className="space-y-12">
-            {grouped.map(({ category: cat, brands }) => (
-              <section key={cat}>
+            {grouped.map(({ brand, categories }) => (
+              <section key={brand}>
                 <div className="mb-6 flex items-center gap-4">
-                  <h2 className="text-2xl md:text-3xl font-bold text-foreground">{cat}</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground">{brand}</h2>
                   <div className="h-px flex-1 bg-border" />
                 </div>
                 <div className="space-y-8">
-                  {brands.map(({ brand, items }) => (
-                    <div key={brand}>
+                  {categories.map(({ category: cat, items }) => (
+                    <div key={cat}>
                       <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">
-                        {brand}
+                        {cat}
                       </h3>
                       <div className="grid gap-4 sm:gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                         {items.map((p) => (

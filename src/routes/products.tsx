@@ -59,7 +59,7 @@ function ProductsPage() {
 
   useEffect(() => {
     let cancelled = false;
-    (async () => {
+    const load = async () => {
       const { data, error } = await supabase
         .from("inventory")
         .select('id, "Code", "Name", "Category", "Brand", full_image_url')
@@ -84,8 +84,22 @@ function ProductsPage() {
       });
       setProducts(mapped);
       setLoading(false);
-    })();
-    return () => { cancelled = true; };
+    };
+    load();
+
+    const channel = supabase
+      .channel("inventory-changes")
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "inventory" },
+        () => { load(); },
+      )
+      .subscribe();
+
+    return () => {
+      cancelled = true;
+      supabase.removeChannel(channel);
+    };
   }, []);
 
   const categories = useMemo(() => {

@@ -1,0 +1,1 @@
+CREATE POLICY "Public can read inventory" ON public.inventory FOR SELECT USING (true);

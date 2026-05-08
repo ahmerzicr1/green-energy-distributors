@@ -20,8 +20,8 @@ export type Database = {
           Category: string | null
           Code: string | null
           created_at: string
+          full_image_url: string | null
           id: number
-          Image: string | null
           Name: string | null
         }
         Insert: {
@@ -29,8 +29,8 @@ export type Database = {
           Category?: string | null
           Code?: string | null
           created_at?: string
+          full_image_url?: string | null
           id?: number
-          Image?: string | null
           Name?: string | null
         }
         Update: {
@@ -38,8 +38,8 @@ export type Database = {
           Category?: string | null
           Code?: string | null
           created_at?: string
+          full_image_url?: string | null
           id?: number
-          Image?: string | null
           Name?: string | null
         }
         Relationships: []

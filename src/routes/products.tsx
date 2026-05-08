@@ -2,13 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
 import { Search, X, ImageOff } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import logo from "@/assets/logo.png";
 import { supabase } from "@/integrations/supabase/client";
-
-const IMAGE_BASE = "https://fwjjdouliodjkyriggxl.supabase.co/storage/v1/object/public/Image/";
-const WHATSAPP = "260971131150";
 
 type Product = {
   id: number;
@@ -66,7 +62,7 @@ function ProductsPage() {
     (async () => {
       const { data, error } = await supabase
         .from("inventory")
-        .select('id, "Code", "Name", "Category", "Brand", "Image"')
+        .select('id, "Code", "Name", "Category", "Brand", full_image_url')
         .order("id", { ascending: true })
         .limit(2000);
       if (cancelled) return;
@@ -76,14 +72,14 @@ function ProductsPage() {
         return;
       }
       const mapped: Product[] = (data ?? []).map((r: any) => {
-        const file = (r.Image ?? "").trim();
+        const url = (r.full_image_url ?? "").trim();
         return {
           id: r.id,
           code: r.Code ?? "",
           name: r.Name ?? "",
           category: r.Category ?? "",
           brand: r.Brand ?? "",
-          imageUrl: file ? IMAGE_BASE + encodeURIComponent(file) : null,
+          imageUrl: url || null,
         };
       });
       setProducts(mapped);
@@ -107,10 +103,26 @@ function ProductsPage() {
     });
   }, [query, category, products]);
 
-  const quoteUrl = (p: Product) =>
-    `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
-      `Hi Green Energy Distributors, I'd like to request a quote for: ${p.name}${p.code ? ` (${p.code})` : ""}.`,
-    )}`;
+  // Group filtered products: Category -> Brand -> Product[]
+  const grouped = useMemo(() => {
+    const map = new Map<string, Map<string, Product[]>>();
+    for (const p of filtered) {
+      const cat = p.category || "Uncategorized";
+      const br = p.brand || "Unbranded";
+      if (!map.has(cat)) map.set(cat, new Map());
+      const brands = map.get(cat)!;
+      if (!brands.has(br)) brands.set(br, []);
+      brands.get(br)!.push(p);
+    }
+    return [...map.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([cat, brands]) => ({
+        category: cat,
+        brands: [...brands.entries()]
+          .sort((a, b) => a[0].localeCompare(b[0]))
+          .map(([brand, items]) => ({ brand, items })),
+      }));
+  }, [filtered]);
 
   return (
     <>
@@ -174,30 +186,46 @@ function ProductsPage() {
             No products match your search.
           </div>
         ) : (
-          <div className="grid gap-4 sm:gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {filtered.map((p) => (
-              <article
-                key={p.id}
-                className="flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-0.5 hover:border-primary/40"
-                style={{ boxShadow: "var(--shadow-card)" }}
-              >
-                <div className="aspect-square">
-                  <ProductImage src={p.imageUrl} />
+          <div className="space-y-12">
+            {grouped.map(({ category: cat, brands }) => (
+              <section key={cat}>
+                <div className="mb-6 flex items-center gap-4">
+                  <h2 className="text-2xl md:text-3xl font-bold text-foreground">{cat}</h2>
+                  <div className="h-px flex-1 bg-border" />
                 </div>
-                <div className="flex flex-1 flex-col p-3">
-                  <div className="text-[10px] font-semibold uppercase tracking-wider text-primary truncate">
-                    {p.brand || "—"}
-                  </div>
-                  <h3 className="mt-1 text-sm font-bold text-foreground line-clamp-2 leading-snug min-h-[2.5rem]">
-                    {p.name}
-                  </h3>
-                  <Button asChild size="sm" className="mt-3 w-full">
-                    <a href={quoteUrl(p)} target="_blank" rel="noopener noreferrer">
-                      Request Quote
-                    </a>
-                  </Button>
+                <div className="space-y-8">
+                  {brands.map(({ brand, items }) => (
+                    <div key={brand}>
+                      <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-primary">
+                        {brand}
+                      </h3>
+                      <div className="grid gap-4 sm:gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                        {items.map((p) => (
+                          <article
+                            key={p.id}
+                            className="flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-0.5 hover:border-primary/40"
+                            style={{ boxShadow: "var(--shadow-card)" }}
+                          >
+                            <div className="aspect-square">
+                              <ProductImage src={p.imageUrl} />
+                            </div>
+                            <div className="flex flex-1 flex-col p-3">
+                              <h4 className="text-sm font-bold text-foreground line-clamp-2 leading-snug min-h-[2.5rem]">
+                                {p.name}
+                              </h4>
+                              {p.code && (
+                                <div className="mt-1 text-[11px] font-medium text-muted-foreground">
+                                  Code: <span className="text-foreground">{p.code}</span>
+                                </div>
+                              )}
+                            </div>
+                          </article>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              </article>
+              </section>
             ))}
           </div>
         )}

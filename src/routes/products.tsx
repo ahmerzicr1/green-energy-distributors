@@ -117,10 +117,38 @@ function ProductsPage() {
     });
   }, [query, category, products]);
 
-  // Group filtered products: Brand -> Category -> Product[]
+  // Priority categories shown at the very top, in this order.
+  const PRIORITY_CATEGORIES = ["Inverters", "Batteries", "Solar Panels", "Pump Inverters"];
+
+  // Group filtered products: Brand -> Category -> Product[],
+  // but lift priority categories to the top as their own brand-less sections.
   const grouped = useMemo(() => {
-    const map = new Map<string, Map<string, Product[]>>();
+    const priorityMap = new Map<string, Product[]>();
+    const rest: Product[] = [];
+    const isPriority = (cat: string) =>
+      PRIORITY_CATEGORIES.some((c) => c.toLowerCase() === cat.toLowerCase());
+
     for (const p of filtered) {
+      if (isPriority(p.category)) {
+        const key =
+          PRIORITY_CATEGORIES.find((c) => c.toLowerCase() === p.category.toLowerCase()) ||
+          p.category;
+        if (!priorityMap.has(key)) priorityMap.set(key, []);
+        priorityMap.get(key)!.push(p);
+      } else {
+        rest.push(p);
+      }
+    }
+
+    const priorityGroups = PRIORITY_CATEGORIES
+      .filter((c) => priorityMap.has(c))
+      .map((c) => ({
+        brand: c,
+        categories: [{ category: c, items: priorityMap.get(c)! }],
+      }));
+
+    const map = new Map<string, Map<string, Product[]>>();
+    for (const p of rest) {
       const br = p.brand || "Unbranded";
       const cat = p.category || "Uncategorized";
       if (!map.has(br)) map.set(br, new Map());
@@ -128,7 +156,7 @@ function ProductsPage() {
       if (!cats.has(cat)) cats.set(cat, []);
       cats.get(cat)!.push(p);
     }
-    return [...map.entries()]
+    const restGroups = [...map.entries()]
       .sort((a, b) => a[0].localeCompare(b[0]))
       .map(([brand, cats]) => ({
         brand,
@@ -136,6 +164,8 @@ function ProductsPage() {
           .sort((a, b) => a[0].localeCompare(b[0]))
           .map(([category, items]) => ({ category, items })),
       }));
+
+    return [...priorityGroups, ...restGroups];
   }, [filtered]);
 
   return (

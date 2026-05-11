@@ -31,12 +31,14 @@ export function Header() {
               {l.label}
             </Link>
           ))}
-          <Link
-            to="/contact"
+          <a
+            href="https://wa.me/260971131150?text=Hello%20Green%20Energy%20Distributors%2C%20I%27d%20like%20to%20request%20a%20quote."
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-2 inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow hover:bg-primary/90 transition-colors"
           >
             Get a Quote
-          </Link>
+          </a>
         </nav>
         <button
           className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-foreground"

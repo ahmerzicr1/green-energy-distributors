@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Sun, Lightbulb, Zap, Battery, ShieldCheck, Clock, Users } from "lucide-react";
 import heroImg from "@/assets/hero-solar.jpg";
 import ledImg from "@/assets/led-lighting.jpg";
+import { BigOrderBanner } from "@/components/site/BigOrderBanner";
 
 export const Route = createFileRoute("/")({
   head: () => ({

@@ -217,6 +217,8 @@ function ProductsPage() {
         </div>
       </section>
 
+      <BigOrderBanner />
+
       <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
         {error ? (
           <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-center text-sm text-destructive">

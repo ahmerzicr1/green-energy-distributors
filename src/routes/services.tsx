@@ -51,7 +51,7 @@ function ServicesPage() {
           <h2 className="text-2xl md:text-3xl font-bold">Need a custom scope of work?</h2>
           <p className="mt-3 text-white/90 max-w-xl mx-auto">Send us your site details and we'll prepare a quotation tailored to your project.</p>
           <Button asChild variant="hero" size="lg" className="mt-6">
-            <Link to="/contact">Request a Quote <ArrowRight className="ml-1 h-4 w-4" /></Link>
+            <a href="https://wa.me/260971131150?text=Hello%20Green%20Energy%20Distributors%2C%20I%27d%20like%20to%20request%20a%20quote." target="_blank" rel="noopener noreferrer">Request a Quote <ArrowRight className="ml-1 h-4 w-4" /></a>
           </Button>
         </div>
       </section>

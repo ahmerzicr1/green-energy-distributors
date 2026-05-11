@@ -55,7 +55,7 @@ function Index() {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Button asChild variant="hero" size="lg">
-                <Link to="/contact">Request a Quote <ArrowRight className="ml-1 h-4 w-4" /></Link>
+                <a href="https://wa.me/260971131150?text=Hello%20Green%20Energy%20Distributors%2C%20I%27d%20like%20to%20request%20a%20quote." target="_blank" rel="noopener noreferrer">Request a Quote <ArrowRight className="ml-1 h-4 w-4" /></a>
               </Button>
               <Button asChild variant="heroOutline" size="lg">
                 <Link to="/services">Our Services</Link>
@@ -161,7 +161,7 @@ function Index() {
           <h2 className="text-3xl md:text-4xl font-bold">Ready to power your project?</h2>
           <p className="mt-3 text-white/90 max-w-xl mx-auto">Tell us about your site and we'll prepare a tailored quote within one business day.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Button asChild variant="hero" size="lg"><Link to="/contact">Request a Quote</Link></Button>
+            <Button asChild variant="hero" size="lg"><a href="https://wa.me/260971131150?text=Hello%20Green%20Energy%20Distributors%2C%20I%27d%20like%20to%20request%20a%20quote." target="_blank" rel="noopener noreferrer">Request a Quote</a></Button>
             <Button asChild variant="heroOutline" size="lg"><a href="tel:+260971131150">Call +260 971 131 150</a></Button>
           </div>
         </div>

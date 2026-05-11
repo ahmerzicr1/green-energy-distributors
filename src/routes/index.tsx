@@ -134,6 +134,9 @@ function Index() {
         </div>
       </section>
 
+      {/* Big order banner */}
+      <BigOrderBanner />
+
       {/* Why us */}
       <section className="container mx-auto px-4 md:px-6 py-20 md:py-28">
         <div className="text-center max-w-2xl mx-auto">

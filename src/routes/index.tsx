@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Sun, Lightbulb, Zap, Battery, ShieldCheck, Clock, Users } from "lucide-react";
 import heroImg from "@/assets/hero-solar.jpg";
 import ledImg from "@/assets/led-lighting.jpg";
+import { BigOrderBanner } from "@/components/site/BigOrderBanner";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -133,6 +134,9 @@ function Index() {
           </div>
         </div>
       </section>
+
+      {/* Big order banner */}
+      <BigOrderBanner />
 
       {/* Why us */}
       <section className="container mx-auto px-4 md:px-6 py-20 md:py-28">

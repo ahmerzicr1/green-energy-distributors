@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import logo from "@/assets/logo.png";
 import { supabase } from "@/integrations/supabase/client";
+import { BigOrderBanner } from "@/components/site/BigOrderBanner";
 
 type Product = {
   id: number;
@@ -215,6 +216,8 @@ function ProductsPage() {
           </p>
         </div>
       </section>
+
+      <BigOrderBanner />
 
       <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
         {error ? (

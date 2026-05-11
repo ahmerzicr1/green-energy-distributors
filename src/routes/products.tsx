@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import logo from "@/assets/logo.png";
 import { supabase } from "@/integrations/supabase/client";
+import { BigOrderBanner } from "@/components/site/BigOrderBanner";
 
 type Product = {
   id: number;

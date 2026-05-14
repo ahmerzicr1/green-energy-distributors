@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import { Sun, PencilRuler, Lightbulb, Zap, ShoppingBag, BookOpen, ArrowRight } from "lucide-react";
+import { Sun, PencilRuler, Lightbulb, Zap, ShoppingBag, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
   head: () => ({

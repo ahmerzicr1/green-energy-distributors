@@ -20,7 +20,6 @@ const services = [
   { icon: Lightbulb, title: "Lighting", desc: "Heavy-duty IP66 lighting for warehouses, sports grounds, security perimeters and industrial yards." },
   { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects." },
   { icon: ShoppingBag, title: "Solar Equipment Sales", desc: "Tier-1 panels, inverters, batteries, mounting kits and accessories sold at competitive trade pricing." },
-  { icon: BookOpen, title: "Energy Consultancy", desc: "Independent advice on energy audits, efficiency upgrades and ROI modelling for clean-energy investments." },
 ];
 
 function ServicesPage() {

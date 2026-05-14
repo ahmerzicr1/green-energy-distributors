@@ -24,6 +24,7 @@ export function Footer() {
           <div className="text-sm font-semibold uppercase tracking-wider">Contact</div>
           <ul className="mt-3 space-y-2 text-sm text-white/70">
             <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 shrink-0" /><a href="tel:+260971131150" className="hover:text-white">+260 971 131 150</a></li>
+            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 shrink-0" /><a href="tel:+260976570537" className="hover:text-white">+260 976 570 537</a></li>
             <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 shrink-0" /><a href="https://maps.app.goo.gl/jBXikxJdFUBVA1nb8" target="_blank" rel="noopener noreferrer" className="hover:text-white">Plot 6547, Mansana Road, Lusaka, Zambia</a></li>
           </ul>
         </div>

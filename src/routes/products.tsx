@@ -223,7 +223,7 @@ function ProductsPage() {
       <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
         {error ? (
           <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-center text-sm text-destructive">
-            Failed to load products: {error}
+            {error}
           </div>
         ) : loading ? (
           <div className="rounded-xl border border-dashed border-border p-12 text-center text-muted-foreground">

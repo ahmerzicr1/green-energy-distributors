@@ -19,8 +19,15 @@ type Product = {
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
-      { title: "Product Catalog — Green Energy Distributors Ltd" },
-      { name: "description", content: "Browse our full B2B catalog of solar inverters, batteries, panels, electrical and lighting products." },
+      { title: "Solar Products & Electrical Supplies — Green Energy Distributors Ltd, Zambia" },
+      { name: "description", content: "Browse solar inverters, batteries, solar panels, pumps and electrical supplies from Green Energy Distributors Ltd. B2B solar equipment supplier in Zambia with trade pricing and nationwide delivery." },
+      { name: "keywords", content: "solar products zambia, solar inverters zambia, solar batteries zambia, solar panels zambia, electrical supplies lusaka, solar equipment supplier zambia" },
+      { property: "og:title", content: "Solar Products & Electrical Supplies — Green Energy Distributors Ltd, Zambia" },
+      { property: "og:description", content: "Browse solar inverters, batteries, panels and electrical supplies. B2B supplier in Zambia with trade pricing." },
+      { property: "og:url", content: "https://green-energy-zm.com/products" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://green-energy-zm.com/products" },
     ],
   }),
   component: ProductsPage,

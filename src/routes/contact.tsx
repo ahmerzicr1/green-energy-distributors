@@ -5,10 +5,15 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us — Green Energy Distributors Ltd" },
-      { name: "description", content: "Contact Green Energy Distributors Ltd in Lusaka. Phone +260 971 131 150, WhatsApp, or visit Plot 6547, Mansana Road, Lusaka." },
-      { property: "og:title", content: "Contact — Green Energy Distributors Ltd" },
-      { property: "og:description", content: "Get in touch for solar, LED and electrical quotes anywhere in Zambia." },
+      { title: "Contact — Solar & Electrical Contractors in Lusaka, Zambia" },
+      { name: "description", content: "Contact Green Energy Distributors Ltd, solar and electrical contractors in Lusaka, Zambia. Call +260 971 131 150 or +260 976 570 537 for solar installation, LED lighting and electrical quotes. Visit Plot 6547, Mansana Road, Lusaka." },
+      { name: "keywords", content: "solar contractors lusaka, electrical contractors zambia, contact solar company zambia, solar installation quote zambia, led lighting quote lusaka" },
+      { property: "og:title", content: "Contact — Solar & Electrical Contractors in Lusaka, Zambia" },
+      { property: "og:description", content: "Get in touch for solar, LED and electrical quotes anywhere in Zambia. Call +260 971 131 150." },
+      { property: "og:url", content: "https://green-energy-zm.com/contact" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://green-energy-zm.com/contact" },
     ],
   }),
   component: ContactPage,

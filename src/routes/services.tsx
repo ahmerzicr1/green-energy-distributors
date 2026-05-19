@@ -5,10 +5,15 @@ import { Sun, PencilRuler, Lightbulb, Zap, ShoppingBag, ArrowRight } from "lucid
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Green Energy Distributors Ltd" },
-      { name: "description", content: "Solar installation, system design, lighting, electrical contracting, equipment sales and energy consultancy across Zambia." },
-      { property: "og:title", content: "Our Services — Green Energy Distributors Ltd" },
-      { property: "og:description", content: "Comprehensive solar, LED and electrical services for Zambian businesses." },
+      { title: "Solar & Electrical Services — Green Energy Distributors Ltd, Zambia" },
+      { name: "description", content: "Solar installation, system design, LED lighting, electrical contracting and solar equipment sales across Zambia. Licensed electrical contractors in Lusaka serving homes, hotels, farms and industry." },
+      { name: "keywords", content: "solar installation zambia, electrical contractors lusaka, led lighting services zambia, solar system design, solar equipment sales zambia" },
+      { property: "og:title", content: "Solar & Electrical Services — Green Energy Distributors Ltd, Zambia" },
+      { property: "og:description", content: "Solar installation, LED lighting, electrical contracting and equipment sales across Zambia." },
+      { property: "og:url", content: "https://green-energy-zm.com/services" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://green-energy-zm.com/services" },
     ],
   }),
   component: ServicesPage,

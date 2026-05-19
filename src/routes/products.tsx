@@ -68,7 +68,8 @@ function ProductsPage() {
         .limit(2000);
       if (cancelled) return;
       if (error) {
-        setError(error.message);
+        if (import.meta.env.DEV) console.error(error);
+        setError("Unable to load products. Please try again.");
         setLoading(false);
         return;
       }

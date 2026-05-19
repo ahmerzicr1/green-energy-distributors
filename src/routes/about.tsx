@@ -6,10 +6,15 @@ import about from "@/assets/about-team.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — Green Energy Distributors Ltd" },
-      { name: "description", content: "Zambian-owned solar, LED and electrical company serving homeowners through to multinational hotel groups with flexibility and on-time delivery." },
-      { property: "og:title", content: "About — Green Energy Distributors Ltd" },
-      { property: "og:description", content: "From homeowners to multinationals — quality solar, lighting and electrical work delivered on time, every time." },
+      { title: "About Us — Solar & Electrical Company in Zambia" },
+      { name: "description", content: "Learn about Green Energy Distributors Ltd, a Zambian-owned solar, LED and electrical company in Lusaka. Serving homeowners through to multinational hotel groups with certified engineers and on-time delivery." },
+      { name: "keywords", content: "solar company zambia, about green energy distributors, electrical contractors lusaka, zambian solar installers" },
+      { property: "og:title", content: "About Us — Solar & Electrical Company in Zambia" },
+      { property: "og:description", content: "Zambian-owned solar, LED and electrical company serving homeowners through to multinational hotel groups." },
+      { property: "og:url", content: "https://green-energy-zm.com/about" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://green-energy-zm.com/about" },
     ],
   }),
   component: AboutPage,

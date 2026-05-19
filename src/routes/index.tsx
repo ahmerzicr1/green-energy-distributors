@@ -8,10 +8,15 @@ import { BigOrderBanner } from "@/components/site/BigOrderBanner";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Green Energy Distributors Ltd | Solar & LED Solutions Zambia" },
-      { name: "description", content: "Powering Zambia's future with clean energy. Solar installation, LED lighting and electrical contracting for businesses across Zambia." },
-      { property: "og:title", content: "Green Energy Distributors Ltd" },
-      { property: "og:description", content: "Powering Zambia's Future with Clean Energy." },
+      { title: "Solar Companies in Zambia | Green Energy Distributors Ltd — Solar, LED & Electrical" },
+      { name: "description", content: "Leading solar company in Zambia. Solar panel installation, LED lighting and electrical contracting for homes, hotels, manufacturers, farms and contractors across Lusaka and nationwide. Request a free quote." },
+      { name: "keywords", content: "solar companies in zambia, solar installation zambia, led lighting companies zambia, electrical contractors lusaka, solar panel suppliers zambia, clean energy zambia" },
+      { property: "og:title", content: "Solar Companies in Zambia | Green Energy Distributors Ltd" },
+      { property: "og:description", content: "Leading solar company in Zambia. Solar panel installation, LED lighting and electrical contracting across Lusaka and nationwide." },
+      { property: "og:url", content: "https://green-energy-zm.com" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://green-energy-zm.com" },
     ],
   }),
   component: Index,

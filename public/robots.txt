@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://green-energy-zm.com/sitemap.xml

@@ -6,10 +6,10 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Solar & Electrical Services — Green Energy Distributors Ltd, Zambia" },
-      { name: "description", content: "Solar installation, system design, LED lighting, electrical contracting and solar equipment sales across Zambia. Licensed electrical contractors in Lusaka serving homes, hotels, farms and industry." },
-      { name: "keywords", content: "solar installation zambia, electrical contractors lusaka, led lighting services zambia, solar system design, solar equipment sales zambia" },
+      { name: "description", content: "Solar installation, system design, LED lighting and electrical contracting across Zambia. Licensed electrical contractors in Lusaka serving homes, hotels, farms and industry." },
+      { name: "keywords", content: "solar installation zambia, electrical contractors lusaka, led lighting services zambia, solar system design" },
       { property: "og:title", content: "Solar & Electrical Services — Green Energy Distributors Ltd, Zambia" },
-      { property: "og:description", content: "Solar installation, LED lighting, electrical contracting and equipment sales across Zambia." },
+      { property: "og:description", content: "Solar installation, LED lighting and electrical contracting across Zambia." },
       { property: "og:url", content: "https://green-energy-zm.com/services" },
     ],
     links: [

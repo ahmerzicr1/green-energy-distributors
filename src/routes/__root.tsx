@@ -46,7 +46,7 @@ const localBusinessSchema = {
     "@type": "Country",
     name: "Zambia",
   },
-  serviceType: ["Solar Installation", "LED Lighting", "Electrical Contracting", "Solar Equipment Sales"],
+  serviceType: ["Solar Installation", "LED Lighting", "Electrical Contracting"],
 };
 
 export const Route = createRootRoute({

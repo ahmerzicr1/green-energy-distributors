@@ -20,10 +20,11 @@ export const Route = createFileRoute("/services")({
 });
 
 const services = [
-  { icon: Sun, title: "Solar Panel Installation", desc: "Professional installation of rooftop and ground-mount solar arrays for homes, businesses and farms — built to withstand Zambia's climate." },
-  { icon: PencilRuler, title: "Solar System Design", desc: "Custom system sizing, load analysis and engineering plans tailored to your usage patterns and budget." },
-  { icon: Lightbulb, title: "Lighting", desc: "Heavy-duty IP66 lighting for warehouses, sports grounds, security perimeters and industrial yards." },
-  { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects." },
+  { icon: Sun, title: "Solar Panel Installation", desc: "Professional installation of rooftop and ground-mount solar arrays for homes, businesses and farms — built to withstand Zambia's climate.", message: "Hello Green Energy Distributors, I'm interested in solar panel installation." },
+  { icon: PencilRuler, title: "Solar System Design", desc: "Custom system sizing, load analysis and engineering plans tailored to your usage patterns and budget.", message: "Hello Green Energy Distributors, I'm interested in solar system design." },
+  { icon: Lightbulb, title: "Lighting", desc: "Heavy-duty IP66 lighting for warehouses, sports grounds, security perimeters and industrial yards.", message: "Hello Green Energy Distributors, I'm interested in lighting solutions." },
+  { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects.", message: "Hello Green Energy Distributors, I'm interested in electrical supply and contracting." },
+  { icon: ShoppingBag, title: "Solar Equipment Sales", desc: "Tier-1 panels, inverters, batteries, mounting kits and accessories sold at competitive trade pricing.", message: "Hello Green Energy Distributors, I'm interested in purchasing solar equipment." },
 ];
 
 function ServicesPage() {
@@ -40,13 +41,20 @@ function ServicesPage() {
       <section className="container mx-auto px-4 md:px-6 py-20">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
-            <article key={s.title} className="group rounded-xl border border-border bg-card p-7 transition-all hover:border-primary/40 hover:-translate-y-1" style={{ boxShadow: "var(--shadow-card)" }}>
+            <a
+              key={s.title}
+              href={`https://wa.me/260971131150?text=${encodeURIComponent(s.message)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block rounded-xl border border-border bg-card p-7 transition-all hover:border-primary/40 hover:-translate-y-1 cursor-pointer"
+              style={{ boxShadow: "var(--shadow-card)" }}
+            >
               <div className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                 <s.icon className="h-6 w-6" />
               </div>
               <h2 className="mt-5 text-xl font-semibold text-foreground">{s.title}</h2>
               <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
-            </article>
+            </a>
           ))}
         </div>
 

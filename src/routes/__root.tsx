@@ -33,6 +33,8 @@ const localBusinessSchema = {
   name: "Green Energy Distributors Ltd",
   description: "Solar panel installation, LED lighting and electrical contracting company in Lusaka, Zambia. Serving homeowners, hotels, manufacturers, farms and commercial projects.",
   url: "https://green-energy-zm.com",
+  logo: "https://green-energy-zm.com/logo.png",
+  image: "https://green-energy-zm.com/logo.png",
   telephone: ["+260971131150", "+260976570537"],
   email: "info@greenenergydistributors.com",
   address: {
@@ -47,6 +49,17 @@ const localBusinessSchema = {
     name: "Zambia",
   },
   serviceType: ["Solar Installation", "LED Lighting", "Electrical Contracting", "Solar Equipment Sales"],
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Green Energy Distributors Ltd",
+  url: "https://green-energy-zm.com",
+  logo: "https://green-energy-zm.com/logo.png",
+  sameAs: [
+    "https://www.green-energy-zm.com",
+  ],
 };
 
 export const Route = createRootRoute({
@@ -73,11 +86,17 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "icon", type: "image/png", href: "/logo.png" },
+      { rel: "apple-touch-icon", href: "/logo.png" },
     ],
     scripts: [
       {
         type: "application/ld+json",
         children: JSON.stringify(localBusinessSchema),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(organizationSchema),
       },
     ],
   }),

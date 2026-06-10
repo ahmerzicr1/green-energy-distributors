@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
-import { Sun, PencilRuler, Lightbulb, Zap, ShoppingBag, ArrowRight } from "lucide-react";
+import { PencilRuler, Lightbulb, Zap, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -20,11 +20,9 @@ export const Route = createFileRoute("/services")({
 });
 
 const services = [
-  { icon: Sun, title: "Solar Panel Installation", desc: "Professional installation of rooftop and ground-mount solar arrays for homes, businesses and farms — built to withstand Zambia's climate.", message: "Hello Green Energy Distributors, I'm interested in solar panel installation." },
   { icon: PencilRuler, title: "Solar System Design", desc: "Custom system sizing, load analysis and engineering plans tailored to your usage patterns and budget.", message: "Hello Green Energy Distributors, I'm interested in solar system design." },
   { icon: Lightbulb, title: "Lighting", desc: "Heavy-duty IP66 lighting for warehouses, sports grounds, security perimeters and industrial yards.", message: "Hello Green Energy Distributors, I'm interested in lighting solutions." },
   { icon: Zap, title: "Electrical Supply & Contracting", desc: "Licensed electrical wiring, supply and contracting — from single buildings to multi-site commercial projects.", message: "Hello Green Energy Distributors, I'm interested in electrical supply and contracting." },
-  { icon: ShoppingBag, title: "Solar Equipment Sales", desc: "Tier-1 panels, inverters, batteries, mounting kits and accessories sold at competitive trade pricing.", message: "Hello Green Energy Distributors, I'm interested in purchasing solar equipment." },
 ];
 
 function ServicesPage() {
